@@ -1,0 +1,266 @@
+{
+  "work": {
+    "index": {
+      "images": {
+        "dsgnjbs-phone.jpg": [
+          "/work/dsgn-jbs"
+        ],
+        "helvetitee2.jpg": [
+          "/work/helvetitee"
+        ],
+        "dsgnjbs-mbp.jpg": [
+          "/work/dsgn-jbs"
+        ],
+        "helvetitee3.jpg": [
+          "/work/helvetitee"
+        ],
+        "helvetitee.jpg": [
+          "/work/helvetitee"
+        ]
+      },
+      "type": {
+        "employment (lead designer)": [
+          "/work/top10"
+        ],
+        "client": [
+          "/work/hasty"
+        ],
+        "personal": [
+          "/work/helvetitee",
+          "/work/dsgn-jbs"
+        ]
+      },
+      "backgroundcss": {
+        "#48abd0": [
+          "/work/top10"
+        ],
+        "#333": [
+          "/work/helvetitee"
+        ],
+        "#e2ded6": [
+          "/work/hasty"
+        ],
+        "#ffcc00": [
+          "/work/dsgn-jbs"
+        ]
+      },
+      "month": {
+        "09": [
+          "/work/top10",
+          "/work/helvetitee",
+          "/work/dsgn-jbs",
+          "/work/hasty"
+        ]
+      },
+      "year": {
+        "2013": [
+          "/work/top10",
+          "/work/helvetitee",
+          "/work/dsgn-jbs",
+          "/work/hasty"
+        ]
+      },
+      "mixture_date": {
+        "2013-09-03t00:00:00z": [
+          "/work/helvetitee",
+          "/work/dsgn-jbs"
+        ],
+        "2013-09-07t00:00:00z": [
+          "/work/top10",
+          "/work/hasty"
+        ]
+      },
+      "longdesc": {
+        "a way to keep track of all dem design jobs yeah?": [
+          "/work/dsgn-jbs"
+        ],
+        "hasty got in touch about doing loads of stuff and all that jazz": [
+          "/work/hasty"
+        ],
+        "built in four days with chico etc": [
+          "/work/helvetitee"
+        ],
+        "i worked here for 2 yrs blah": [
+          "/work/top10"
+        ]
+      },
+      "slug": {
+        "/work/top10": [
+          "/work/top10"
+        ],
+        "/work/helvetitee": [
+          "/work/helvetitee"
+        ],
+        "/work/dsgn-jbs": [
+          "/work/dsgn-jbs"
+        ],
+        "/work/hasty": [
+          "/work/hasty"
+        ]
+      },
+      "role": {
+        "build": [
+          "/work/dsgn-jbs"
+        ],
+        "idea": [
+          "/work/helvetitee",
+          "/work/dsgn-jbs"
+        ],
+        "css": [
+          "/work/top10"
+        ],
+        "html": [
+          "/work/top10"
+        ],
+        "front-end": [
+          "/work/helvetitee"
+        ],
+        "wireframing": [
+          "/work/top10"
+        ],
+        "design": [
+          "/work/helvetitee",
+          "/work/dsgn-jbs"
+        ],
+        "ux": [
+          "/work/top10"
+        ],
+        "ui": [
+          "/work/top10"
+        ]
+      },
+      "format": {
+        "ios app": [
+          "/work/hasty"
+        ]
+      },
+      "cover": {
+        "hasty-cover.jpg": [
+          "/work/hasty"
+        ]
+      },
+      "ticks": {
+        "1378512000.0": [
+          "/work/top10",
+          "/work/hasty"
+        ],
+        "1378166400.0": [
+          "/work/helvetitee",
+          "/work/dsgn-jbs"
+        ]
+      },
+      "title": {
+        "helvetitee": [
+          "/work/helvetitee"
+        ],
+        "hasty": [
+          "/work/hasty"
+        ],
+        "dsgn jbs": [
+          "/work/dsgn-jbs"
+        ],
+        "top10": [
+          "/work/top10"
+        ]
+      },
+      "mixture_month_year": {
+        "09/2013": [
+          "/work/top10",
+          "/work/helvetitee",
+          "/work/dsgn-jbs",
+          "/work/hasty"
+        ]
+      }
+    },
+    "collection": {
+      "/work/top10": {
+        "body": "",
+        "backgroundcss": "#48abd0",
+        "type": "Employment (lead designer)",
+        "published": true,
+        "mixture_date": "2013-09-07T00:00:00Z",
+        "year": "2013",
+        "month": "09",
+        "longdesc": "I worked here for 2 yrs blah",
+        "date": "Sat Sep 07 00:00:00 UTC 2013",
+        "slug": "/work/top10",
+        "role": [
+          "UI",
+          "UX",
+          "html",
+          "css",
+          "wireframing"
+        ],
+        "ticks": 1378512000.0,
+        "mixture_month_year": "09/2013",
+        "title": "Top10"
+      },
+      "/work/helvetitee": {
+        "body": "\n<!-- /assets/img/work/helvetitee/helvetitee.jpg\n/assets/img/work/helvetitee/helvetitee2.jpg\n/assets/img/work/helvetitee/helvetitee3.jpg -->",
+        "published": true,
+        "backgroundcss": "#333",
+        "type": "Personal",
+        "images": [
+          "helvetitee.jpg",
+          "helvetitee2.jpg",
+          "helvetitee3.jpg"
+        ],
+        "mixture_date": "2013-09-03T00:00:00Z",
+        "year": "2013",
+        "month": "09",
+        "longdesc": "built in four days with Chico etc",
+        "date": "Tue Sep 03 00:00:00 UTC 2013",
+        "slug": "/work/helvetitee",
+        "role": [
+          "idea",
+          "design",
+          "front-end"
+        ],
+        "ticks": 1378166400.0,
+        "mixture_month_year": "09/2013",
+        "title": "Helvetitee"
+      },
+      "/work/dsgn-jbs": {
+        "published": true,
+        "body": "\n<!-- /assets/img/work/helvetitee/helvetitee.jpg\n/assets/img/work/helvetitee/helvetitee2.jpg\n/assets/img/work/helvetitee/helvetitee3.jpg -->",
+        "backgroundcss": "#ffcc00",
+        "type": "Personal",
+        "images": [
+          "dsgnjbs-mbp.jpg",
+          "dsgnjbs-phone.jpg"
+        ],
+        "mixture_date": "2013-09-03T00:00:00Z",
+        "year": "2013",
+        "month": "09",
+        "date": "Tue Sep 03 00:00:00 UTC 2013",
+        "longdesc": "A way to keep track of all dem design jobs yeah?",
+        "slug": "/work/dsgn-jbs",
+        "role": [
+          "idea",
+          "design",
+          "build"
+        ],
+        "ticks": 1378166400.0,
+        "mixture_month_year": "09/2013",
+        "title": "DSGN JBS"
+      },
+      "/work/hasty": {
+        "body": "",
+        "published": true,
+        "backgroundcss": "#e2ded6",
+        "type": "client",
+        "mixture_date": "2013-09-07T00:00:00Z",
+        "year": "2013",
+        "month": "09",
+        "longdesc": "Hasty got in touch about doing loads of stuff and all that jazz",
+        "date": "Sat Sep 07 00:00:00 UTC 2013",
+        "slug": "/work/hasty",
+        "format": "iOS app",
+        "ticks": 1378512000.0,
+        "cover": "hasty-cover.jpg",
+        "mixture_month_year": "09/2013",
+        "title": "Hasty"
+      }
+    }
+  }
+}

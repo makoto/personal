@@ -1,0 +1,59 @@
+{% block content %}
+	<section class="home" id="intro">
+	<div class="container">
+		<div class="eight columns alpha">
+			<h1 class="intro"><span class="typer" contenteditable="true"></span><noscript>Tom Cavill is a product designer in London.</noscript></h1>
+		</div>
+	</div>
+	</section>
+
+		<section class="work" id="work">
+			<div class="container">
+				<div class="row clearfix">
+					<div class="eight columns alpha">
+						{{ 2 | lorem_ipsum:'p' }}
+					</div>
+					<div class="five columns offset-by-three omega">
+						<ul class="work-list">
+						{% collection "work" %}
+						<!-- TODO: make alpha / omega -->
+							{% for project in collection.items %}
+							<!-- todo: sort by personal or client -->
+							<li>
+								{{ project.title }}
+							</li>
+							{% endfor %}
+						{% endcollection %}
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+	{% collection "work" %}
+		{% include "portfolio" with collection.items %}
+	{% endcollection %}
+
+		<section id="about">
+			<div class="container">
+				<h1>about</h1>
+
+				{{ 30 | lorem_ipsum:'p' }}
+			</div>
+		</section>
+
+		<div id="links" class="hidden">
+			<h1>sidebar</h1>
+			{{ 2 | lorem_ipsum:'p' }}
+		</section>
+{% endblock %}
+
+{% block scripts %}
+
+	{{ "jquery.typer.js" | asset_url | script_tag }}
+	{{ "jquery.pageslide.js" | asset_url | script_tag }}
+	{{ "jquery.waypoints.min.js" | asset_url | script_tag }}
+	{{ "jquery.lettering-0.6.min.js" | asset_url | script_tag }}
+
+{% endblock %}
