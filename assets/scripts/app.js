@@ -59,14 +59,18 @@ $( document ).ready(function() {
 			// find the id of the particular section we just scrolled on
 			var id = "#" + $(this).attr("id");
 			var idSplit = id.split('-');
+			var proj = $(this).attr("data-project-name");
 			console.log("down",id,idSplit[0]);
+			console.log("project name is",proj);
 
 		} else {
 
 			// find the id of the PREVIOUS section we just scrolled on
 			var id = "#" + $(this).prev().attr("id");
 			var idSplit = id.split('-');
+			var proj = $(this).prev().attr("data-project-name");
 			console.log("up",id,idSplit[0]);
+			console.log("previous project name is",proj);
 
 		}
 
