@@ -1,29 +1,27 @@
 $( document ).ready(function() {
 
 	// set section height
-	var h = $(window).height();
-	nh = $(".navigation").outerHeight();
+	var h = $(window).height(),
+	 	nh = $(".navigation").outerHeight();
 
- 	$('section.work').css('min-height',h);
+ 	$('section.work').css('height',h);
  	$('.home').css('height',h); // show the nav
 
  	// make h1 sit dead central vertically
  	$('h1.intro').css('margin-top',-nh*0.5)
 
  	// typer
- 	$('.typer').typeTo("Tom Cavill is a product designer in London.");
- 	$.typer.options.typeSpeed = 90;
+ 	$('.typer').typeTo("I'm a product designer in London.");
+ 	$.typer.options.typeSpeed = 80;
 
  	// pageslide
  	$('.hamburger').pageslide();
  	$('.beefburger').pageslide({ direction: "left" });
 
- 	// lettering js
- 	//$(".intro").lettering();
-
  	// Scroll events
 
- 	$(document).on("scroll", function () {
+ 	$(document).on("scroll", function (e) {
+
  		// How many px from the top am I?
 		var t = $(document).scrollTop();
 
@@ -70,7 +68,7 @@ $( document ).ready(function() {
 			var idSplit = id.split('-');
 			var proj = $(this).prev().attr("data-project-name");
 			console.log("up",id,idSplit[0]);
-			console.log("previous project name is",proj);
+			console.log("project name is",proj);
 
 		}
 
@@ -82,7 +80,35 @@ $( document ).ready(function() {
 		// find the link's neighbours and remove the class from them
 		nav.siblings().removeClass("active");
 
+
 	}, { offset: nh });
+
+	$(".portfolio section").waypoint(function (direction) {
+		var currSection = this;
+		var currSectionId = "section" + "#" + $(currSection).attr("id");
+		var sectionSibs = $(currSection).siblings();
+		//currSection.css("overflow","scroll");
+		//currSection.siblings().css("overflow","hidden");
+		console.log("current section is",currSectionId);
+		$(currSectionId).css("overflow","scroll");
+		$(sectionSibs).css("overflow","hidden");
+		var desc = $(currSectionId).find(".project-description");
+		var descAlt = $(sectionSibs).find(".project-description");
+		console.log(desc);
+		$(desc).css('position','fixed');
+		$(descAlt).css('position','static');
+
+		var descH = $(desc).outerHeight();
+		console.log("desc height",descH);
+		var images = $(currSectionId).find(".portfolio-image");
+		$(images).css("margin-top",descH + nh);
+	});
+
+	// trying to get the desc to fade out when images scroll over
+	// $(".project-description").waypoint(function (direction) {
+	// 	var tom = $(this).scrollTop();
+	// 	console.log("context",direction,this,tom);
+	// }, { context: '.portfolio section' });
 
  	// tell the scroll event to happen
 	// when we load the page, not just on scroll

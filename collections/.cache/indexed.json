@@ -1,189 +1,268 @@
 {
   "work": {
     "index": {
-      "images": {
-        "dsgnjbs-phone.jpg": [
-          "/work/dsgn-jbs"
-        ],
-        "helvetitee2.jpg": [
-          "/work/helvetitee"
-        ],
-        "dsgnjbs-mbp.jpg": [
-          "/work/dsgn-jbs"
-        ],
-        "helvetitee3.jpg": [
-          "/work/helvetitee"
-        ],
-        "helvetitee.jpg": [
-          "/work/helvetitee"
-        ]
-      },
-      "type": {
-        "employment (lead designer)": [
-          "/work/top10"
-        ],
-        "client": [
-          "/work/hasty"
-        ],
-        "personal": [
-          "/work/helvetitee",
-          "/work/dsgn-jbs"
-        ]
-      },
-      "backgroundcss": {
-        "#48abd0": [
-          "/work/top10"
-        ],
-        "#333": [
-          "/work/helvetitee"
-        ],
-        "#e2ded6": [
-          "/work/hasty"
-        ],
-        "#ffcc00": [
-          "/work/dsgn-jbs"
-        ]
-      },
-      "month": {
-        "09": [
-          "/work/top10",
-          "/work/helvetitee",
-          "/work/dsgn-jbs",
-          "/work/hasty"
-        ]
-      },
-      "year": {
-        "2013": [
-          "/work/top10",
-          "/work/helvetitee",
-          "/work/dsgn-jbs",
-          "/work/hasty"
-        ]
-      },
-      "mixture_date": {
-        "2013-09-03t00:00:00z": [
-          "/work/helvetitee",
-          "/work/dsgn-jbs"
-        ],
-        "2013-09-07t00:00:00z": [
-          "/work/top10",
-          "/work/hasty"
-        ]
-      },
       "longdesc": {
-        "a way to keep track of all dem design jobs yeah?": [
-          "/work/dsgn-jbs"
-        ],
-        "hasty got in touch about doing loads of stuff and all that jazz": [
-          "/work/hasty"
-        ],
         "built in four days with chico etc": [
           "/work/helvetitee"
         ],
-        "i worked here for 2 yrs blah": [
-          "/work/top10"
-        ]
-      },
-      "slug": {
-        "/work/top10": [
-          "/work/top10"
-        ],
-        "/work/helvetitee": [
-          "/work/helvetitee"
-        ],
-        "/work/dsgn-jbs": [
+        "a way to keep track of all dem design jobs yeah?": [
           "/work/dsgn-jbs"
         ],
-        "/work/hasty": [
+        "i worked here for 2 yrs blah": [
+          "/work/top10"
+        ],
+        "autographer is a wearable, intelligent camera that takes photos automatically -- a life-logging device. i worked in a consultancy, designer and developer role on the camera's companion sharing service, which enables camera owners to quickly share their photos, videos and gifs to the web and on to other social services.": [
+          "/work/autographer"
+        ],
+        "i helped san francisco based hasty with the first version of their ios app, and to prepare for their yc interviews. the app enables health conscious people to order takeout, filtered by nutritional value.": [
           "/work/hasty"
         ]
       },
       "role": {
-        "build": [
-          "/work/dsgn-jbs"
+        "ruby on rails": [
+          "/work/autographer"
         ],
-        "idea": [
-          "/work/helvetitee",
-          "/work/dsgn-jbs"
-        ],
-        "css": [
-          "/work/top10"
-        ],
-        "html": [
-          "/work/top10"
+        "consultancy": [
+          "/work/hasty",
+          "/work/autographer"
         ],
         "front-end": [
           "/work/helvetitee"
         ],
-        "wireframing": [
+        "idea": [
+          "/work/dsgn-jbs",
+          "/work/helvetitee"
+        ],
+        "css": [
+          "/work/autographer",
+          "/work/top10"
+        ],
+        "html": [
+          "/work/autographer",
           "/work/top10"
         ],
         "design": [
-          "/work/helvetitee",
+          "/work/hasty",
+          "/work/autographer",
+          "/work/dsgn-jbs",
+          "/work/helvetitee"
+        ],
+        "build": [
           "/work/dsgn-jbs"
+        ],
+        "wireframing": [
+          "/work/top10"
         ],
         "ux": [
           "/work/top10"
         ],
         "ui": [
           "/work/top10"
-        ]
-      },
-      "format": {
-        "ios app": [
-          "/work/hasty"
-        ]
-      },
-      "cover": {
-        "hasty-cover.jpg": [
-          "/work/hasty"
-        ]
-      },
-      "ticks": {
-        "1378512000.0": [
-          "/work/top10",
-          "/work/hasty"
         ],
-        "1378166400.0": [
-          "/work/helvetitee",
-          "/work/dsgn-jbs"
+        "js": [
+          "/work/autographer"
         ]
       },
       "title": {
         "helvetitee": [
           "/work/helvetitee"
         ],
+        "dsgn jbs": [
+          "/work/dsgn-jbs"
+        ],
         "hasty": [
           "/work/hasty"
         ],
-        "dsgn jbs": [
-          "/work/dsgn-jbs"
+        "autographer": [
+          "/work/autographer"
         ],
         "top10": [
           "/work/top10"
         ]
       },
+      "mixture_date": {
+        "2013-09-07t00:00:00z": [
+          "/work/autographer",
+          "/work/top10"
+        ],
+        "2013-09-15t00:00:00z": [
+          "/work/hasty"
+        ],
+        "2013-09-03t00:00:00z": [
+          "/work/dsgn-jbs",
+          "/work/helvetitee"
+        ]
+      },
+      "type": {
+        "personal": [
+          "/work/dsgn-jbs",
+          "/work/helvetitee"
+        ],
+        "employment (lead designer)": [
+          "/work/top10"
+        ],
+        "client": [
+          "/work/hasty",
+          "/work/autographer"
+        ]
+      },
+      "month": {
+        "09": [
+          "/work/hasty",
+          "/work/autographer",
+          "/work/top10",
+          "/work/dsgn-jbs",
+          "/work/helvetitee"
+        ]
+      },
+      "format": {
+        "ios app": [
+          "/work/hasty"
+        ],
+        "responsive web app": [
+          "/work/autographer"
+        ]
+      },
+      "backgroundcss": {
+        "#48abd0": [
+          "/work/top10"
+        ],
+        "#ffcc00": [
+          "/work/dsgn-jbs"
+        ],
+        "#e2ded6": [
+          "/work/hasty"
+        ],
+        "#444444": [
+          "/work/autographer"
+        ],
+        "#333": [
+          "/work/helvetitee"
+        ]
+      },
+      "year": {
+        "2013": [
+          "/work/hasty",
+          "/work/autographer",
+          "/work/top10",
+          "/work/dsgn-jbs",
+          "/work/helvetitee"
+        ]
+      },
+      "slug": {
+        "/work/top10": [
+          "/work/top10"
+        ],
+        "/work/autographer": [
+          "/work/autographer"
+        ],
+        "/work/hasty": [
+          "/work/hasty"
+        ],
+        "/work/dsgn-jbs": [
+          "/work/dsgn-jbs"
+        ],
+        "/work/helvetitee": [
+          "/work/helvetitee"
+        ]
+      },
       "mixture_month_year": {
         "09/2013": [
+          "/work/hasty",
+          "/work/autographer",
           "/work/top10",
-          "/work/helvetitee",
           "/work/dsgn-jbs",
+          "/work/helvetitee"
+        ]
+      },
+      "images": {
+        "hasty_1.png": [
+          "/work/hasty"
+        ],
+        "hasty_2.png": [
+          "/work/hasty"
+        ],
+        "helvetitee2.jpg": [
+          "/work/helvetitee"
+        ],
+        "helvetitee3.jpg": [
+          "/work/helvetitee"
+        ],
+        "helvetitee.jpg": [
+          "/work/helvetitee"
+        ],
+        "dsgnjbs-mbp.jpg": [
+          "/work/dsgn-jbs"
+        ],
+        "dsgnjbs-phone.jpg": [
+          "/work/dsgn-jbs"
+        ]
+      },
+      "ticks": {
+        "1378512000.0": [
+          "/work/autographer",
+          "/work/top10"
+        ],
+        "1378166400.0": [
+          "/work/dsgn-jbs",
+          "/work/helvetitee"
+        ],
+        "1379203200.0": [
           "/work/hasty"
         ]
       }
     },
     "collection": {
-      "/work/top10": {
-        "body": "",
-        "backgroundcss": "#48abd0",
-        "type": "Employment (lead designer)",
+      "/work/hasty": {
+        "title": "Hasty",
         "published": true,
-        "mixture_date": "2013-09-07T00:00:00Z",
-        "year": "2013",
+        "role": [
+          "Design",
+          "Consultancy"
+        ],
+        "longdesc": "I helped San Francisco based Hasty with the first version of their iOS app, and to prepare for their YC interviews. The app enables health conscious people to order takeout, filtered by nutritional value.",
+        "mixture_date": "2013-09-15T00:00:00Z",
         "month": "09",
-        "longdesc": "I worked here for 2 yrs blah",
+        "type": "client",
+        "body": "\n<li>/assets/img/work/hasty/hasty_1.png</li>\n<li>/assets/img/work/hasty/hasty_2.png</li>",
+        "year": "2013",
+        "backgroundcss": "#e2ded6",
+        "format": "iOS app",
+        "slug": "/work/hasty",
+        "mixture_month_year": "09/2013",
+        "images": [
+          "hasty_1.png",
+          "hasty_2.png"
+        ],
+        "date": "Sun Sep 15 00:00:00 UTC 2013",
+        "ticks": 1379203200.0
+      },
+      "/work/autographer": {
+        "published": true,
+        "role": [
+          "Design",
+          "HTML",
+          "CSS",
+          "JS",
+          "Ruby on Rails",
+          "Consultancy"
+        ],
+        "title": "Autographer",
+        "longdesc": "Autographer is a wearable, intelligent camera that takes photos automatically -- a life-logging device. I worked in a consultancy, designer and developer role on the camera's companion sharing service, which enables camera owners to quickly share their photos, videos and gifs to the web and on to other social services.",
+        "mixture_date": "2013-09-07T00:00:00Z",
+        "month": "09",
+        "type": "client",
+        "body": "",
+        "year": "2013",
+        "backgroundcss": "#444444",
+        "format": "Responsive web app",
+        "slug": "/work/autographer",
+        "mixture_month_year": "09/2013",
         "date": "Sat Sep 07 00:00:00 UTC 2013",
-        "slug": "/work/top10",
+        "ticks": 1378512000.0
+      },
+      "/work/top10": {
+        "published": true,
         "role": [
           "UI",
           "UX",
@@ -191,75 +270,67 @@
           "css",
           "wireframing"
         ],
-        "ticks": 1378512000.0,
-        "mixture_month_year": "09/2013",
-        "title": "Top10"
-      },
-      "/work/helvetitee": {
-        "body": "\n<!-- /assets/img/work/helvetitee/helvetitee.jpg\n/assets/img/work/helvetitee/helvetitee2.jpg\n/assets/img/work/helvetitee/helvetitee3.jpg -->",
-        "published": true,
-        "backgroundcss": "#333",
-        "type": "Personal",
-        "images": [
-          "helvetitee.jpg",
-          "helvetitee2.jpg",
-          "helvetitee3.jpg"
-        ],
-        "mixture_date": "2013-09-03T00:00:00Z",
-        "year": "2013",
+        "title": "Top10",
+        "longdesc": "I worked here for 2 yrs blah",
+        "mixture_date": "2013-09-07T00:00:00Z",
         "month": "09",
-        "longdesc": "built in four days with Chico etc",
-        "date": "Tue Sep 03 00:00:00 UTC 2013",
-        "slug": "/work/helvetitee",
-        "role": [
-          "idea",
-          "design",
-          "front-end"
-        ],
-        "ticks": 1378166400.0,
+        "type": "Employment (lead designer)",
+        "body": "",
+        "year": "2013",
+        "backgroundcss": "#48abd0",
+        "slug": "/work/top10",
         "mixture_month_year": "09/2013",
-        "title": "Helvetitee"
+        "date": "Sat Sep 07 00:00:00 UTC 2013",
+        "ticks": 1378512000.0
       },
       "/work/dsgn-jbs": {
         "published": true,
-        "body": "\n<!-- /assets/img/work/helvetitee/helvetitee.jpg\n/assets/img/work/helvetitee/helvetitee2.jpg\n/assets/img/work/helvetitee/helvetitee3.jpg -->",
-        "backgroundcss": "#ffcc00",
-        "type": "Personal",
-        "images": [
-          "dsgnjbs-mbp.jpg",
-          "dsgnjbs-phone.jpg"
-        ],
-        "mixture_date": "2013-09-03T00:00:00Z",
-        "year": "2013",
-        "month": "09",
-        "date": "Tue Sep 03 00:00:00 UTC 2013",
-        "longdesc": "A way to keep track of all dem design jobs yeah?",
-        "slug": "/work/dsgn-jbs",
         "role": [
           "idea",
           "design",
           "build"
         ],
-        "ticks": 1378166400.0,
-        "mixture_month_year": "09/2013",
-        "title": "DSGN JBS"
-      },
-      "/work/hasty": {
-        "body": "",
-        "published": true,
-        "backgroundcss": "#e2ded6",
-        "type": "client",
-        "mixture_date": "2013-09-07T00:00:00Z",
-        "year": "2013",
+        "title": "DSGN JBS",
+        "longdesc": "A way to keep track of all dem design jobs yeah?",
+        "mixture_date": "2013-09-03T00:00:00Z",
         "month": "09",
-        "longdesc": "Hasty got in touch about doing loads of stuff and all that jazz",
-        "date": "Sat Sep 07 00:00:00 UTC 2013",
-        "slug": "/work/hasty",
-        "format": "iOS app",
-        "ticks": 1378512000.0,
-        "cover": "hasty-cover.jpg",
+        "type": "Personal",
+        "body": "\n<!-- /assets/img/work/helvetitee/helvetitee.jpg\n/assets/img/work/helvetitee/helvetitee2.jpg\n/assets/img/work/helvetitee/helvetitee3.jpg -->",
+        "year": "2013",
+        "backgroundcss": "#ffcc00",
+        "slug": "/work/dsgn-jbs",
         "mixture_month_year": "09/2013",
-        "title": "Hasty"
+        "images": [
+          "dsgnjbs-mbp.jpg",
+          "dsgnjbs-phone.jpg"
+        ],
+        "date": "Tue Sep 03 00:00:00 UTC 2013",
+        "ticks": 1378166400.0
+      },
+      "/work/helvetitee": {
+        "published": true,
+        "role": [
+          "idea",
+          "design",
+          "front-end"
+        ],
+        "title": "Helvetitee",
+        "longdesc": "built in four days with Chico etc",
+        "mixture_date": "2013-09-03T00:00:00Z",
+        "month": "09",
+        "type": "Personal",
+        "body": "\n<!-- /assets/img/work/helvetitee/helvetitee.jpg\n/assets/img/work/helvetitee/helvetitee2.jpg\n/assets/img/work/helvetitee/helvetitee3.jpg -->",
+        "year": "2013",
+        "backgroundcss": "#333",
+        "slug": "/work/helvetitee",
+        "mixture_month_year": "09/2013",
+        "images": [
+          "helvetitee.jpg",
+          "helvetitee2.jpg",
+          "helvetitee3.jpg"
+        ],
+        "date": "Tue Sep 03 00:00:00 UTC 2013",
+        "ticks": 1378166400.0
       }
     }
   }

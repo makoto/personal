@@ -7,7 +7,7 @@
 	</div>
 	</section>
 
-		<section class="work" id="work">
+		<section class="about" id="about">
 			<div class="container">
 				<div class="row clearfix">
 					<div class="eight columns alpha">
@@ -31,20 +31,14 @@
 			</div>
 		</section>
 
-	{% collection "work" %}
-		{% include "portfolio" with collection.items %}
-	{% endcollection %}
-
-		<section id="about">
-			<div class="container">
-				<h1>about</h1>
-
-				{{ 30 | lorem_ipsum:'p' }}
-			</div>
-		</section>
+	<article class="portfolio" id="work">
+		{% collection "work" %}
+			{% include "portfolio" with collection.items %}
+		{% endcollection %}
+	</article>
 
 		<div id="links" class="hidden">
-			<h1>sidebar</h1>
+			<h1>Contact</h1>
 			{{ 2 | lorem_ipsum:'p' }}
 		</section>
 {% endblock %}

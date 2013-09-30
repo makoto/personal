@@ -1,29 +1,23 @@
 <section class="work {{ portfolio.title | truncatewords: 1, '' | downcase }}" id="work-{{ portfolio.title | truncatewords: 1, '' | downcase }}" style="background: {{ portfolio.backgroundcss }};" data-project-name="{{ portfolio.title }}">
 	<div class="container">
 		<div class="row">
-			<div class="four columns">
-				<h1>{{ portfolio.title }}</h1>
-				<p>{{ portfolio.longdesc }}</p>
-			</div>
-			<div class="six columns">
-				Type:
-				{{ portfolio.type }}
-			</div>
-			<div class="six columns">
-				Previous
-				Next
-			</div>
+			<section class="project-description">
+				<div class="six columns offset-by-five">
+					<h1>{{ portfolio.title }}</h1>
+					<p>{{ portfolio.longdesc }}</p>
+				</div>
+			</section>
 		</div>
 		<div class="row">
 			<figure class="portfolio-image clearfix">
-				<div class="four columns">
-					<figcaption>
-						{{ portfolio.title }}
-					</figcaption>
-				</div>
-				<div class="twelve columns">
-				<img src="https://lv-delivery.imgix.net/uploads%2F1375897243678-5h6n05jophjdzpvi-0402d2c36ab73c42b666a3c44ee84b7c%2F1367640172.004432.preview_Front-Page.psd20130504-7681-12cwn7c.png?&s=2628f3f64e3855f6df4921d5a5ea92eb" alt="{{ portfolio.title }}">
-				</div>
+				<!-- <ul>
+					{% for image in portfolio.images %}
+					<li><img src="{{ image | asset_url }}" alt="{{ portfolio.title }}" /></li>
+					{% endfor %}
+				</ul> -->
+				<img src="{{ "960x600" | placeholder:'cc0000','000000' }}" alt="blah" />
+				<img src="{{ "960x600" | placeholder:'cc0000','000000' }}" alt="blah" />
+				<img src="{{ "960x600" | placeholder:'cc0000','000000' }}" alt="blah" />
 			</figure>
 		</div>
 	</div>

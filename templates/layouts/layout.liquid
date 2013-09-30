@@ -51,6 +51,7 @@
     <!-- JS
     ================================================== -->
     {% block scripts %}{% endblock %}
+    {{ "jquery.unevent.js" | asset_url | script_tag }}
     {{ "app.js" | asset_url | script_tag }}
 
 <!-- End Document
