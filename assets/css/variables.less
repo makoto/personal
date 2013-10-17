@@ -17,13 +17,13 @@
 // ==================================================
 
 @bodyFontFamily: "Apercu Mono Regular", 'Andale Mono', Monaco, "Lucida Sans Typewriter", "Lucida Console" "Bitstream Vera Sans Mono", monospace;
-@bodyFontSize: 18px;
-@bodyFontWeight: 21px;
+@bodyFontSize: 16px;
+@bodyFontWeight: normal;
 
 @bodyBackground: @secondary;
 @bodyColor: @primary;
 
-@sitePadding: 20px;
+@sitePadding: @fixedHeight;
 
 // #Link Variables
 // ==================================================
@@ -36,30 +36,33 @@
 @headerFontWeight: normal;
 @headerColor: @primary;
 
+@fixedHeight: 1em;
+@siteTextMargin: (@fixedHeight + 0.5em);
+
 // h1
 @h1FontSize: @bodyFontSize;
-@h1LineHeight: 50px;
-@h1MarginBottom: 14px;
+@h1LineHeight: @fixedHeight;
+@h1MarginBottom: @siteTextMargin;
 
 // h2
 @h2FontSize: @bodyFontSize;
-@h2LineHeight: 40px;
-@h2MarginBottom: 10px;
+@h2LineHeight: @fixedHeight;
+@h2MarginBottom: @siteTextMargin;
 
 // h3
 @h3FontSize: @bodyFontSize;
-@h3LineHeight: 34px;
-@h3MarginBottom: 8px;
+@h3LineHeight: @fixedHeight;
+@h3MarginBottom: @siteTextMargin;
 
 // h4
 @h4FontSize: @bodyFontSize;
-@h4LineHeight: 30px;
-@h4MarginBottom: 4px;
+@h4LineHeight: @fixedHeight;
+@h4MarginBottom: @siteTextMargin;
 
 // h5
 @h5FontSize: @bodyFontSize;
-@h5LineHeight: 24px;
+@h5LineHeight: @siteTextMargin;
 
 // h6
 @h6FontSize: @bodyFontSize;
-@h6LineHeight: 21px;
+@h6LineHeight: @siteTextMargin;

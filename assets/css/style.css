@@ -1,3 +1,4 @@
+/* [less, assets/css, style.less] */
 /*---------------------------------------------------
     LESS Elements 0.6
   ---------------------------------------------------
@@ -18,6 +19,7 @@
  * http://www.opensource.org/licenses/mit-license.php
  * 6/20/2012
  */
+/* line 25, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 html,
 body,
 div,
@@ -106,6 +108,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+/* line 33, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 article,
 aside,
 details,
@@ -119,48 +122,56 @@ nav,
 section {
   display: block;
 }
+/* line 36, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 body {
   line-height: 1;
 }
+/* line 39, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 ol,
 ul {
   list-style: none;
 }
+/* line 42, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 blockquote,
 q {
   quotes: none;
 }
+/* line 44, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 blockquote:before,
 q:before {
   content: '';
   content: none;
 }
+/* line 48, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 blockquote:after,
 q:after {
   content: '';
   content: none;
 }
+/* line 53, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/* line 60, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 body {
   background: #ffffff;
   font-family: "Apercu Mono Regular", 'Andale Mono', Monaco, "Lucida Sans Typewriter", "Lucida Console" "Bitstream Vera Sans Mono", monospace;
-  font-size: 18px;
-  font-weight: 21px;
+  font-size: 16px;
+  font-weight: normal;
   color: #000000;
 }
+/* line 71, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: #000000;
   font-family: "Apercu Mono Regular", 'Andale Mono', Monaco, "Lucida Sans Typewriter", "Lucida Console" "Bitstream Vera Sans Mono", monospace;
   font-weight: normal;
 }
+/* line 74, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 h1 a,
 h2 a,
 h3 a,
@@ -169,60 +180,74 @@ h5 a,
 h6 a {
   font-weight: inherit;
 }
+/* line 75, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 h1 {
-  font-size: 18px;
-  line-height: 50px;
-  margin-bottom: 14px;
+  font-size: 16px;
+  line-height: 1em;
+  margin-bottom: 1.5em;
 }
+/* line 76, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 h2 {
-  font-size: 18px;
-  line-height: 40px;
-  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1em;
+  margin-bottom: 1.5em;
 }
+/* line 77, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 h3 {
-  font-size: 18px;
-  line-height: 34px;
-  margin-bottom: 8px;
+  font-size: 16px;
+  line-height: 1em;
+  margin-bottom: 1.5em;
 }
+/* line 78, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 h4 {
-  font-size: 18px;
-  line-height: 30px;
-  margin-bottom: 4px;
+  font-size: 16px;
+  line-height: 1em;
+  margin-bottom: 1.5em;
 }
+/* line 79, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 h5 {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 1.5em;
 }
+/* line 80, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 h6 {
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 16px;
+  line-height: 1.5em;
 }
+/* line 81, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 .subheader {
   color: #777;
 }
+/* line 83, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 p {
-  margin: 0 0 20px 0;
-  line-height: 1.4em;
+  margin: 0 0 1.5em 0;
+  line-height: 1.5em;
 }
+/* line 84, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 p img {
   margin: 0;
 }
+/* line 85, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 p.lead {
-  font-size: 21px;
-  line-height: 27px;
+  font-size: 1em;
+  line-height: 1em;
   color: #777;
 }
+/* line 87, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 em {
   font-style: italic;
 }
+/* line 88, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 strong {
   font-weight: bold;
   color: #333;
 }
+/* line 89, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 small {
   font-size: 80%;
 }
 /*  Blockquotes  */
+/* line 92, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 blockquote,
 blockquote p {
   font-size: 17px;
@@ -230,24 +255,29 @@ blockquote p {
   color: #777;
   font-style: italic;
 }
+/* line 93, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 blockquote {
   margin: 0 0 20px;
   padding: 9px 20px 0 19px;
   border-left: 1px solid #ddd;
 }
+/* line 94, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 blockquote cite {
   display: block;
   font-size: 12px;
   color: #555;
 }
+/* line 96, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 blockquote cite:before {
   content: "\2014 \0020";
 }
+/* line 98, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 blockquote cite a,
 blockquote cite a:visited,
 blockquote cite a:visited {
   color: #555;
 }
+/* line 100, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 hr {
   border: solid #ddd;
   border-width: 1px 0 0;
@@ -255,47 +285,59 @@ hr {
   margin: 10px 0 30px;
   height: 0;
 }
+/* line 104, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 a,
 a:visited {
   color: #000000;
-  text-decoration: underline;
+  text-decoration: none;
   outline: 0;
+  background-color: rgba(0, 0, 0, 0.07);
 }
+/* line 105, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 a:hover,
 a:focus {
-  color: #333333;
+  color: #000000;
 }
+/* line 106, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 p a,
 p a:visited {
   line-height: inherit;
 }
 /* #Lists
 ================================================== */
+/* line 110, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 ul,
 ol {
-  margin-bottom: 20px;
+  margin-bottom: 1.5em;
 }
+/* line 111, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 ul {
   list-style: none outside;
 }
+/* line 112, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 ol {
   list-style: decimal;
 }
+/* line 113, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 ol,
 ul.square,
 ul.circle,
 ul.disc {
   margin-left: 30px;
 }
+/* line 114, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 ul.square {
   list-style: square outside;
 }
+/* line 115, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 ul.circle {
   list-style: circle outside;
 }
+/* line 116, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 ul.disc {
   list-style: disc outside;
 }
+/* line 117, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 ul ul,
 ul ol,
 ol ol,
@@ -303,26 +345,37 @@ ol ul {
   margin: 4px 0 5px 30px;
   font-size: 90%;
 }
+/* line 119, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 ul ul li,
 ul ol li,
 ol ol li,
 ol ul li {
-  margin-bottom: 6px;
+  margin-bottom: 1.5em;
 }
+/* line 121, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 li {
-  line-height: 18px;
-  margin-bottom: 12px;
+  line-height: 1.5em;
+  margin-bottom: 0;
 }
+/* line 121, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
+li:before {
+  content: '-';
+  padding-right: 0.5em;
+}
+/* line 122, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 ul.large li {
   line-height: 21px;
 }
+/* line 123, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 li p {
   line-height: 21px;
 }
+/* line 128, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 img {
   max-width: 100%;
   height: auto;
 }
+/* line 136, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 .button,
 button,
 input[type="submit"],
@@ -360,8 +413,8 @@ input[type="button"] {
   margin-bottom: 20px;
   line-height: normal;
   padding: 8px 10px;
-  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+/* line 157, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -376,6 +429,7 @@ input[type="button"]:hover {
   border-top: 1px solid #aaa;
   border-left: 1px solid #aaa;
 }
+/* line 164, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 .button:active,
 button:active,
 input[type="submit"]:active,
@@ -387,6 +441,7 @@ input[type="button"]:active {
   background: -ms-linear-gradient(bottom, rgba(255, 255, 255, 0.35), rgba(0, 0, 0, 0.4));
   background: -moz-linear-gradient(center bottom, rgba(255, 255, 255, 0.35) 0%, rgba(0, 0, 0, 0.4) 100%);
 }
+/* line 168, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 .button.full-width,
 button.full-width,
 input[type="submit"].full-width,
@@ -397,17 +452,21 @@ input[type="button"].full-width {
   padding-right: 0 !important;
   text-align: center;
 }
+/* line 177, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
+/* line 186, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 form {
   margin-bottom: 20px;
 }
+/* line 189, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 fieldset {
   margin-bottom: 20px;
 }
+/* line 192, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -422,7 +481,6 @@ select {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #777;
   margin: 0;
   width: 210px;
@@ -431,9 +489,11 @@ select {
   margin-bottom: 20px;
   background: #fff;
 }
+/* line 210, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 select {
   padding: 0;
 }
+/* line 213, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
@@ -444,36 +504,49 @@ textarea:focus {
   -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
+/* line 221, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 textarea {
   min-height: 60px;
 }
+/* line 224, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 label,
 legend {
   display: block;
   font-weight: bold;
   font-size: 13px;
 }
+/* line 230, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 select {
   width: 220px;
 }
+/* line 233, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 input[type="checkbox"] {
   display: inline;
 }
+/* line 236, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 label span,
 legend span {
   font-weight: normal;
   font-size: 13px;
   color: #444;
 }
+/* line 242, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
+.muted {
+  color: rgba(0, 0, 0, 0.5);
+}
+/* line 248, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 .remove-bottom {
   margin-bottom: 0 !important;
 }
+/* line 249, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 .half-bottom {
-  margin-bottom: 10px !important;
+  margin-bottom: 1em !important;
 }
+/* line 250, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 .add-bottom {
-  margin-bottom: 20px !important;
+  margin-bottom: 1.5em !important;
 }
+/* line 251, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/base.less */
 .hidden {
   display: none;
 }
@@ -485,12 +558,14 @@ legend span {
 * http://www.opensource.org/licenses/mit-license.php
 * 6/20/2012
 */
+/* line 24, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container {
   position: relative;
   width: 960px;
   margin: 0 auto;
   padding: 0;
 }
+/* line 25, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .column,
 .container .columns {
   float: left;
@@ -498,253 +573,330 @@ legend span {
   margin-left: 10px;
   margin-right: 10px;
 }
+/* line 27, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .row {
   margin-bottom: 20px;
 }
 /* Nested Column Classes */
+/* line 30, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .column.alpha,
 .columns.alpha {
   margin-left: 0;
 }
+/* line 31, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .column.omega,
 .columns.omega {
   margin-right: 0;
 }
 /* Base Grid */
+/* line 34, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .one.column,
 .container .one.columns {
   width: 40px;
 }
+/* line 36, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .two.columns {
   width: 100px;
 }
+/* line 37, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .three.columns {
   width: 160px;
 }
+/* line 38, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .four.columns {
   width: 220px;
 }
+/* line 39, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .five.columns {
   width: 280px;
 }
+/* line 40, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .six.columns {
   width: 340px;
 }
+/* line 41, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .seven.columns {
   width: 400px;
 }
+/* line 42, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .eight.columns {
   width: 460px;
 }
+/* line 43, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .nine.columns {
   width: 520px;
 }
+/* line 44, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .ten.columns {
   width: 580px;
 }
+/* line 45, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .eleven.columns {
   width: 640px;
 }
+/* line 46, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .twelve.columns {
   width: 700px;
 }
+/* line 47, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .thirteen.columns {
   width: 760px;
 }
+/* line 48, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .fourteen.columns {
   width: 820px;
 }
+/* line 49, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .fifteen.columns {
   width: 880px;
 }
+/* line 50, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .sixteen.columns {
   width: 940px;
 }
+/* line 52, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .one-third.column {
   width: 300px;
 }
+/* line 53, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .two-thirds.column {
   width: 620px;
 }
 /* Offsets */
+/* line 56, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .offset-by-one {
   padding-left: 60px;
 }
+/* line 57, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .offset-by-two {
   padding-left: 120px;
 }
+/* line 58, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .offset-by-three {
   padding-left: 180px;
 }
+/* line 59, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .offset-by-four {
   padding-left: 240px;
 }
+/* line 60, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .offset-by-five {
   padding-left: 300px;
 }
+/* line 61, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .offset-by-six {
   padding-left: 360px;
 }
+/* line 62, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .offset-by-seven {
   padding-left: 420px;
 }
+/* line 63, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .offset-by-eight {
   padding-left: 480px;
 }
+/* line 64, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .offset-by-nine {
   padding-left: 540px;
 }
+/* line 65, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .offset-by-ten {
   padding-left: 600px;
 }
+/* line 66, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .offset-by-eleven {
   padding-left: 660px;
 }
+/* line 67, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .offset-by-twelve {
   padding-left: 720px;
 }
+/* line 68, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .offset-by-thirteen {
   padding-left: 780px;
 }
+/* line 69, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .offset-by-fourteen {
   padding-left: 840px;
 }
+/* line 70, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container .offset-by-fifteen {
   padding-left: 900px;
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
+  /* line 77, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container {
     width: 768px;
   }
+  /* line 78, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .column,
   .container .columns {
     margin-left: 10px;
     margin-right: 10px;
   }
+  /* line 80, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .column.alpha,
   .columns.alpha {
     margin-left: 0;
     margin-right: 10px;
   }
+  /* line 81, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .column.omega,
   .columns.omega {
     margin-right: 0;
     margin-left: 10px;
   }
+  /* line 82, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .alpha.omega {
     margin-left: 0;
     margin-right: 0;
   }
+  /* line 84, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .one.column,
   .container .one.columns {
     width: 28px;
   }
+  /* line 86, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .two.columns {
     width: 76px;
   }
+  /* line 87, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .three.columns {
     width: 124px;
   }
+  /* line 88, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .four.columns {
     width: 172px;
   }
+  /* line 89, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .five.columns {
     width: 220px;
   }
+  /* line 90, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .six.columns {
     width: 268px;
   }
+  /* line 91, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .seven.columns {
     width: 316px;
   }
+  /* line 92, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .eight.columns {
     width: 364px;
   }
+  /* line 93, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .nine.columns {
     width: 412px;
   }
+  /* line 94, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .ten.columns {
     width: 460px;
   }
+  /* line 95, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .eleven.columns {
     width: 508px;
   }
+  /* line 96, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .twelve.columns {
     width: 556px;
   }
+  /* line 97, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .thirteen.columns {
     width: 604px;
   }
+  /* line 98, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .fourteen.columns {
     width: 652px;
   }
+  /* line 99, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .fifteen.columns {
     width: 700px;
   }
+  /* line 100, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .sixteen.columns {
     width: 748px;
   }
+  /* line 102, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .one-third.column {
     width: 236px;
   }
+  /* line 103, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .two-thirds.column {
     width: 492px;
   }
   /* Offsets */
+  /* line 106, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .offset-by-one {
     padding-left: 48px;
   }
+  /* line 107, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .offset-by-two {
     padding-left: 96px;
   }
+  /* line 108, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .offset-by-three {
     padding-left: 144px;
   }
+  /* line 109, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .offset-by-four {
     padding-left: 192px;
   }
+  /* line 110, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .offset-by-five {
     padding-left: 240px;
   }
+  /* line 111, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .offset-by-six {
     padding-left: 288px;
   }
+  /* line 112, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .offset-by-seven {
     padding-left: 336px;
   }
+  /* line 113, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .offset-by-eight {
     padding-left: 384px;
   }
+  /* line 114, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .offset-by-nine {
     padding-left: 432px;
   }
+  /* line 115, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .offset-by-ten {
     padding-left: 480px;
   }
+  /* line 116, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .offset-by-eleven {
     padding-left: 528px;
   }
+  /* line 117, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .offset-by-twelve {
     padding-left: 576px;
   }
+  /* line 118, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .offset-by-thirteen {
     padding-left: 624px;
   }
+  /* line 119, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .offset-by-fourteen {
     padding-left: 672px;
   }
+  /* line 120, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .offset-by-fifteen {
     padding-left: 720px;
   }
 }
 @media only screen and (max-width: 767px) {
+  /* line 129, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container {
     width: 300px;
   }
+  /* line 130, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .columns,
   .container .column {
     margin: 0;
   }
+  /* line 133, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .one.column,
   .container .one.columns,
   .container .two.columns,
@@ -767,6 +919,7 @@ legend span {
     width: 300px;
   }
   /* Offsets */
+  /* line 154, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .offset-by-one,
   .container .offset-by-two,
   .container .offset-by-three,
@@ -786,13 +939,16 @@ legend span {
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 178, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container {
     width: 420px;
   }
+  /* line 179, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .columns,
   .container .column {
     margin: 0;
   }
+  /* line 182, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
   .container .one.column,
   .container .one.columns,
   .container .two.columns,
@@ -815,6 +971,7 @@ legend span {
     width: 420px;
   }
 }
+/* line 208, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .container:after {
   content: "\0020";
   display: block;
@@ -824,6 +981,7 @@ legend span {
 }
 /* Use clearfix class on parent to clear nested columns,
 or wrap each row of columns in a <div class="row"> */
+/* line 212, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .clearfix:before,
 .clearfix:after,
 .row:before,
@@ -835,15 +993,18 @@ or wrap each row of columns in a <div class="row"> */
   width: 0;
   height: 0;
 }
+/* line 223, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .row:after,
 .clearfix:after {
   clear: both;
 }
+/* line 227, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .row,
 .clearfix {
   zoom: 1;
 }
 /* You can also use a <br class="clear" /> to clear columns */
+/* line 233, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/skeleton.less */
 .clear {
   clear: both;
   display: block;
@@ -861,6 +1022,7 @@ or wrap each row of columns in a <div class="row"> */
  * 6/20/2012
  */
 /* debug */
+/* line 25, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 .before {
   height: 85px;
   width: 100%;
@@ -869,6 +1031,7 @@ or wrap each row of columns in a <div class="row"> */
   left: 0;
   background-color: red;
 }
+/* line 34, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 .tomcavill-logo {
   position: fixed;
   top: 10px;
@@ -877,12 +1040,15 @@ or wrap each row of columns in a <div class="row"> */
   width: 3.6em;
   height: 3.6em;
   z-index: 9;
+  cursor: pointer;
   transition: all 0.2s ease-out;
 }
+/* line 47, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 .snapback {
   transition: all 0.2s ease-out;
 }
 /* page slide */
+/* line 53, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 #pageslide {
   /* These styles MUST be included. Do not change. */
 
@@ -900,76 +1066,150 @@ or wrap each row of columns in a <div class="row"> */
 
   background-color: #ffffff;
 }
+/* line 70, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 .drawer {
   display: none;
 }
+/* line 74, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 .hamburger,
-.beefburger {
-  color: rgba(0, 0, 0, 0.3);
+.hamburger-close {
+  color: #000000;
   z-index: 9;
+  width: 1em;
+  height: 1em;
+  border: 2px solid #000000;
+  text-align: center;
+  display: block;
+  background: transparent;
 }
-.hamburger {
+/* line 83, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+.hamburger.hamburger-action,
+.hamburger-close.hamburger-action {
+  z-index: 99;
+}
+/* line 86, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+.hamburger:visited,
+.hamburger-close:visited {
+  background: transparent;
+}
+/* line 89, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+.hamburger.hamburger-other,
+.hamburger-close.hamburger-other {
   position: fixed;
-  top: 30px;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+/* line 93, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+.hamburger.hamburger-other span,
+.hamburger-close.hamburger-other span {
+  display: none;
+}
+/* line 98, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+.affix .hamburger.hamburger-other {
+  opacity: 1;
+}
+/* line 101, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+.hamburger {
+  position: absolute;
+  top: 28px;
   left: 30px;
 }
-.beefburger {
-  position: fixed;
-  top: 30px;
-  right: 30px;
-}
+/* line 107, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 .navigation {
-  padding: 20px 0;
+  padding: 1em 0;
   width: 100%;
   left: 0;
   z-index: 8;
   position: absolute;
   bottom: 0;
 }
+/* line 117, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 body.affix .navigation {
   position: fixed;
   top: 0;
   z-index: 8;
   max-height: 100px;
 }
+/* line 123, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 nav {
   width: 206px;
   margin: 0 auto;
+  transition: all 0.2s ease-out;
 }
-nav a {
+/* line 127, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+nav a,
+nav a:visited {
+  transition: all 0.2s ease-out;
   width: 100px;
   float: left;
   line-height: 2.2em;
   border: 2px solid #000000;
   display: inline;
-  background: #ffffff;
+  background: #000000;
   text-align: center;
   text-decoration: none;
   z-index: 100;
-}
-nav a:hover,
-nav a.active {
-  background: #000000;
+  position: relative;
   color: #ffffff;
 }
+/* line 140, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+nav a:hover,
+nav a:visited:hover,
+nav a.active,
+nav a:visited.active,
+nav a:active,
+nav a:visited:active {
+  background: #ffffff;
+  color: #000000;
+}
+/* line 145, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+nav a.active:after,
+nav a:visited.active:after {
+  content: '';
+  width: 10px;
+  height: 2px;
+  background: #000000;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  margin-left: -5px;
+}
+/* line 157, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 nav .tab-left {
   border-right: 0;
 }
+/* line 165, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 section {
   position: relative;
 }
+/* line 172, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 .home {
   min-height: 300px;
+  background: no-repeat 0 0;
+  background-attachment: fixed;
+  overflow: hidden;
+  background-color: rgba(255, 192, 203, 0.15);
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+/* line 187, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 .home .container {
   height: 100%;
 }
+/* line 192, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 .content {
   background: #ffffff;
 }
+/* line 196, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 h1.intro {
   font-family: "Apercu Mono Regular", 'Andale Mono', Monaco, "Lucida Sans Typewriter", "Lucida Console" "Bitstream Vera Sans Mono", monospace;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   line-height: 1.5em;
   width: 100%;
@@ -978,51 +1218,94 @@ h1.intro {
   top: 50%;
   margin-top: -1.5em;
 }
+/* line 209, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 h1.intro .typer:focus {
   outline: none;
 }
+/* line 211, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 h1.intro .typer:focus:after {
   visibility: hidden;
 }
+/* line 215, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 h1.intro .typer:after {
   content: '';
   width: 0.7em;
   height: 1.2em;
-  background-color: #d5d5d5;
+  background-color: rgba(0, 0, 0, 0.1);
   display: inline-block;
   vertical-align: middle;
   position: relative;
   top: -1px;
 }
+/* line 226, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 h1.intro:focus {
   outline: none;
 }
+/* line 231, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 .work-intro {
   outline: 1px solid blue;
 }
+/* line 235, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 .work {
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
 }
+/* line 238, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+.work.active-section {
+  overflow: scroll;
+}
+/* line 242, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 .work .project-description {
-  text-align: center;
-  position: absolute;
   z-index: 0;
-  top: 0;
-  width: 100%;
-  margin: 120px 0;
-  display: block;
+  text-align: center;
+  margin: 6em 0 4em;
 }
+/* line 247, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 .work .portfolio-image {
   z-index: 1;
   position: relative;
-  padding: 80px 0;
+  padding-bottom: 1.5em;
 }
+/* line 251, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 .work .portfolio-image img {
   -webkit-box-shadow: 0 30px 50px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 30px 50px rgba(0, 0, 0, 0.5);
   box-shadow: 0 30px 50px rgba(0, 0, 0, 0.5);
-  margin-bottom: 20px;
+  margin-bottom: 1.5em;
+  min-height: 150px;
+  width: 100%;
+  background: #ffffff url("../img/ajax.gif") no-repeat 50% 50%;
+  color: transparent;
+  position: relative;
+  z-index: 8;
+}
+/* line 260, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+.work .portfolio-image img:before {
+  content: 'loading';
+  text-align: center;
+  line-height: 150px;
+}
+/* line 266, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+.work .portfolio-image .img-link {
+  background: none;
+}
+/* line 273, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+.about .container {
+  padding-top: 6em;
+}
+/* line 277, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+.toilet {
+  -webkit-transform: translate3d(140px, 0, 0px);
+  -webkit-animation-name: slideinfromright;
+}
+/* line 282, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+footer {
+  text-align: center;
+  padding-top: 6em;
+}
+/* line 285, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+footer iframe {
+  margin-bottom: 1.5em;
 }
 /* Smaller than standard 960 (devices and browsers) */
 @media only screen and (max-width: 959px) {
@@ -1042,7 +1325,18 @@ h1.intro:focus {
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-  
+  /* line 308, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+  .tomcavill-logo {
+    right: 5px;
+    width: 2.8800000000000003em;
+    height: 2.8800000000000003em;
+    top: 13px;
+  }
+  /* line 314, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
+  .hamburger {
+    left: 10px;
+    top: 24px;
+  }
 }
 /*  @font-face {
       font-family: 'FontName';
@@ -1054,3 +1348,250 @@ h1.intro:focus {
       font-weight: normal;
       font-style: normal; }
 */
+/* line 1, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+.animated {
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 4s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+}
+/* line 1, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+.animated.hinge {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  -ms-animation-duration: 1s;
+  -o-animation-duration: 1s;
+  animation-duration: 1s;
+}
+@-webkit-keyframes bounceInDown {
+  /* line 2, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+  }
+  /* line 5, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  60% {
+    opacity: 1;
+    -webkit-transform: translateY(30px);
+  }
+  /* line 10, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  80% {
+    -webkit-transform: translateY(-10px);
+  }
+  /* line 14, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  100% {
+    -webkit-transform: translateY(0);
+  }
+}
+@-moz-keyframes bounceInDown {
+  /* line 20, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  0% {
+    opacity: 0;
+    -moz-transform: translateY(-2000px);
+  }
+  /* line 25, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  60% {
+    opacity: 1;
+    -moz-transform: translateY(30px);
+  }
+  /* line 30, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  80% {
+    -moz-transform: translateY(-10px);
+  }
+  /* line 34, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  100% {
+    -moz-transform: translateY(0);
+  }
+}
+@-o-keyframes bounceInDown {
+  /* line 40, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  0% {
+    opacity: 0;
+    -o-transform: translateY(-2000px);
+  }
+  /* line 45, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  60% {
+    opacity: 1;
+    -o-transform: translateY(30px);
+  }
+  /* line 50, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  80% {
+    -o-transform: translateY(-10px);
+  }
+  /* line 54, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  100% {
+    -o-transform: translateY(0);
+  }
+}
+@keyframes bounceInDown {
+  /* line 60, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  0% {
+    opacity: 0;
+    transform: translateY(-2000px);
+  }
+  /* line 65, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  60% {
+    opacity: 1;
+    transform: translateY(30px);
+  }
+  /* line 70, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  80% {
+    transform: translateY(-10px);
+  }
+  /* line 74, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  100% {
+    transform: translateY(0);
+  }
+}
+/* line 79, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+.bounceInDown {
+  -webkit-animation-name: bounceInDown;
+  -moz-animation-name: bounceInDown;
+  -o-animation-name: bounceInDown;
+  animation-name: bounceInDown;
+}
+@-webkit-keyframes hinge {
+  /* line 86, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  0% {
+    -webkit-transform: rotate(0);
+    -webkit-transform-origin: center left;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+  /* line 87, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  20%,
+  60% {
+    -webkit-transform: rotate(100deg);
+    -webkit-transform-origin: center left;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+  /* line 88, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  40% {
+    -webkit-transform: rotate(80deg);
+    -webkit-transform-origin: center left;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+  /* line 89, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  80% {
+    -webkit-transform: rotate(80deg) translateY(0);
+    opacity: 1;
+    -webkit-transform-origin: center left;
+    -webkit-animation-timing-function: ease-in-out;
+  }
+  /* line 90, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  100% {
+    -webkit-transform: translateY(700px) translateX(-3.6em);
+    opacity: 0;
+  }
+}
+@-moz-keyframes hinge {
+  /* line 94, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  0% {
+    -moz-transform: rotate(0);
+    -moz-transform-origin: center left;
+    -moz-animation-timing-function: ease-in-out;
+  }
+  /* line 95, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  20%,
+  60% {
+    -moz-transform: rotate(100deg);
+    -moz-transform-origin: center left;
+    -moz-animation-timing-function: ease-in-out;
+  }
+  /* line 96, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  40% {
+    -moz-transform: rotate(80deg);
+    -moz-transform-origin: center left;
+    -moz-animation-timing-function: ease-in-out;
+  }
+  /* line 97, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  80% {
+    -moz-transform: rotate(80deg) translateY(0);
+    opacity: 1;
+    -moz-transform-origin: center left;
+    -moz-animation-timing-function: ease-in-out;
+  }
+  /* line 98, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  100% {
+    -moz-transform: translateY(700px);
+    opacity: 0;
+  }
+}
+@-o-keyframes hinge {
+  /* line 102, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  0% {
+    -o-transform: rotate(0);
+    -o-transform-origin: center left;
+    -o-animation-timing-function: ease-in-out;
+  }
+  /* line 103, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  20%,
+  60% {
+    -o-transform: rotate(100deg);
+    -o-transform-origin: center left;
+    -o-animation-timing-function: ease-in-out;
+  }
+  /* line 104, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  40% {
+    -o-transform: rotate(80deg);
+    -o-transform-origin: center left;
+    -o-animation-timing-function: ease-in-out;
+  }
+  /* line 105, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  80% {
+    -o-transform: rotate(80deg) translateY(0);
+    opacity: 1;
+    -o-transform-origin: center left;
+    -o-animation-timing-function: ease-in-out;
+  }
+  /* line 106, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  100% {
+    -o-transform: translateY(700px);
+    opacity: 0;
+  }
+}
+@keyframes hinge {
+  /* line 110, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  0% {
+    transform: rotate(0);
+    transform-origin: center left;
+    animation-timing-function: ease-in-out;
+  }
+  /* line 111, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  20%,
+  60% {
+    transform: rotate(0deg);
+    transform-origin: center left;
+    animation-timing-function: ease-in-out;
+  }
+  /* line 112, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  40% {
+    transform: rotate(80deg);
+    transform-origin: center left;
+    animation-timing-function: ease-in-out;
+  }
+  /* line 113, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  80% {
+    transform: rotate(80deg) translateY(0);
+    opacity: 1;
+    transform-origin: center left;
+    animation-timing-function: ease-in-out;
+  }
+  /* line 114, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+  100% {
+    transform: translateY(700px);
+    opacity: 0;
+  }
+}
+/* line 117, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/animate.less */
+.hinge {
+  -webkit-animation-name: hinge;
+  -moz-animation-name: hinge;
+  -o-animation-name: hinge;
+  animation-name: hinge;
+}

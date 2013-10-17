@@ -1,0 +1,9 @@
+/* [less, assets/css, animate.less] */
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Less NameError: variable @logosize is undefined in \\Users\\tomcavill\\Dropbox\\tomcavill\\v3\\build\\assets\\css\\animate.less on line 90, column 59: \A 89 	80% { -webkit-transform: rotate(80deg) translateY(0); opacity: 1; -webkit-transform-origin: center left; -webkit-animation-timing-function: ease-in-out; }	 \A 90 	100% { -webkit-transform: translateY(700px) translateX(-(@logosize*0.5)); opacity: 0; } \A 91 } \A  \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 

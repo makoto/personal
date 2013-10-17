@@ -1,24 +1,34 @@
 <section class="work {{ portfolio.title | truncatewords: 1, '' | downcase }}" id="work-{{ portfolio.title | truncatewords: 1, '' | downcase }}" style="background: {{ portfolio.backgroundcss }};" data-project-name="{{ portfolio.title }}">
 	<div class="container">
-		<div class="row">
-			<section class="project-description">
-				<div class="six columns offset-by-five">
+		<div class="row remove-bottom">
+			<div class="six columns offset-by-five">
+				<section class="project-description">
 					<h1>{{ portfolio.title }}</h1>
-					<p>{{ portfolio.longdesc }}</p>
+					<!-- <p>{{ portfolio.longdesc }}</p> -->
+					{{ portfolio.body }}
+					{% if portfolio.url %}
+					<a href="{{ portfolio.url }}" title="{{ portfolio.title }}" target="_blank">{{ portfolio.url }}</a>
+					{% endif %}
+				</section>
+			</div>
+		</div>
+		<figure class="portfolio-image clearfix">
+				{% for image in portfolio.images %}
+				{% if portfolio.url %}
+				<a href="{{ portfolio.url }}" title="{{ portfolio.title }}" target="_blank" class="img-link">{% endif %}
+				<img src="{{ loading.gif | asset_url }}" data-original="{{ image | asset_url }}" alt="{{ portfolio.title }}" class="lazy" />
+				{% if portfolio.url %}</a>{% endif %}
+				{% endfor %}
+			{% if portfolio.mobile-images %}
+				{% for image in portfolio.mobile-images %}
+				<div class="eight columns{% unless forloop.length != 1 %} offset-by-four{% endunless %}">
+					{% if portfolio.url %}
+					<a href="{{ portfolio.url }}" title="{{ portfolio.title }}" target="_blank" class="img-link">{% endif %}
+					<img src="{{ image | asset_url }}" alt="{{ portfolio.title }}" />
+					{% if portfolio.url %}</a>{% endif %}
 				</div>
-			</section>
-		</div>
-		<div class="row">
-			<figure class="portfolio-image clearfix">
-				<!-- <ul>
-					{% for image in portfolio.images %}
-					<li><img src="{{ image | asset_url }}" alt="{{ portfolio.title }}" /></li>
-					{% endfor %}
-				</ul> -->
-				<img src="{{ "960x600" | placeholder:'cc0000','000000' }}" alt="blah" />
-				<img src="{{ "960x600" | placeholder:'cc0000','000000' }}" alt="blah" />
-				<img src="{{ "960x600" | placeholder:'cc0000','000000' }}" alt="blah" />
-			</figure>
-		</div>
+				{% endfor %}
+			{% endif %}
+		</figure>
 	</div>
 </section>

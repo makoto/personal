@@ -69,7 +69,6 @@ body {
 // #Typography
 // ==================================================
 h1, h2, h3, h4, h5, h6 {
-  color: @headerColor;
   font-family: @headerFontFamily;
   font-weight: @headerFontWeight; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
@@ -81,9 +80,9 @@ h5 { font-size: @h5FontSize; line-height: @h5LineHeight; }
 h6 { font-size: @h6FontSize; line-height: @h6LineHeight; }
 .subheader { color: #777; }
 
-p { margin: 0 0 @sitePadding 0; line-height: 1.4em;  }
+p { margin: 0 0 @siteTextMargin 0; line-height: 1.5em;  }
 p img { margin: 0; }
-p.lead { font-size: 21px; line-height: 27px; color: #777;  }
+p.lead { font-size: @fixedHeight; line-height: @fixedHeight; color: #777;  }
 
 em { font-style: italic; }
 strong { font-weight: bold; color: #333; }
@@ -102,13 +101,13 @@ hr { border: solid #ddd; border-width: 1px 0 0; clear: both; margin: 10px 0 30px
 
 // #Links
 // ==================================================
-a, a:visited { color: @linkColor; text-decoration: underline; outline: 0; }
-a:hover, a:focus { color: @linkHoverColor; }
+a, a:visited { color: @linkColor; text-decoration: none; outline: 0; background-color: fade(@black, 7%); }
+a:hover, a:focus { color: @linkColor; }
 p a, p a:visited { line-height: inherit; }
 
 /* #Lists
 ================================================== */
-ul, ol { margin-bottom: 20px; }
+ul, ol { margin-bottom: @siteTextMargin; }
 ul { list-style: none outside; }
 ol { list-style: decimal; }
 ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
@@ -118,8 +117,8 @@ ul.disc { list-style: disc outside; }
 ul ul, ul ol,
 ol ol, ol ul { margin: 4px 0 5px 30px; font-size: 90%;  }
 ul ul li, ul ol li,
-ol ol li, ol ul li { margin-bottom: 6px; }
-li { line-height: 18px; margin-bottom: 12px; }
+ol ol li, ol ul li { margin-bottom: @siteTextMargin; }
+li { line-height: (@fixedHeight + 0.5em); margin-bottom: 0; &:before {content: '-'; padding-right: 0.5em;} }
 ul.large li { line-height: 21px; }
 li p { line-height: 21px; }
 
@@ -154,7 +153,7 @@ input[type="button"] {
   margin-bottom: 20px;
   line-height: normal;
   padding: 8px 10px;
-  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  //font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   &:hover {
     color: #222;
     .gradient(#ddd, rgba(255,255,255,.3), rgba(0,0,0,.3));
@@ -199,7 +198,7 @@ select {
   padding: 6px 4px;
   outline: none;
   .rounded();
-  font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  //font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #777;
   margin: 0;
   width: 210px;
@@ -240,10 +239,13 @@ legend span {
   font-size: 13px;
   color: #444;
 }
+.muted {
+  color: fade(@black, 50%);
+}
 
 // #Misc
 // ==================================================
 .remove-bottom { margin-bottom: 0 !important; }
-.half-bottom { margin-bottom: 10px !important; }
-.add-bottom { margin-bottom: 20px !important; }
+.half-bottom { margin-bottom: @fixedHeight !important; }
+.add-bottom { margin-bottom: @siteTextMargin !important; }
 .hidden { display: none; }

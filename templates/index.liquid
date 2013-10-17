@@ -1,53 +1,41 @@
 {% block content %}
-	<section class="home" id="intro">
+	<article class="home" id="intro">
 	<div class="container">
 		<div class="eight columns alpha">
-			<h1 class="intro"><span class="typer" contenteditable="true"></span><noscript>Tom Cavill is a product designer in London.</noscript></h1>
+			<h1 class="intro"><span class="typer" contenteditable="true"></span></h1>
+			<noscript><h1>Tom Cavill is a product designer in London.</h1></noscript>
 		</div>
 	</div>
-	</section>
+	</article>
 
-		<section class="about" id="about">
+		<article class="about" id="about">
 			<div class="container">
-				<div class="row clearfix">
-					<div class="eight columns alpha">
-						{{ 2 | lorem_ipsum:'p' }}
-					</div>
-					<div class="five columns offset-by-three omega">
-						<ul class="work-list">
-						{% collection "work" %}
-						<!-- TODO: make alpha / omega -->
-							{% for project in collection.items %}
-							<!-- todo: sort by personal or client -->
-							<li>
-								{{ project.title }}
-							</li>
-							{% endfor %}
-						{% endcollection %}
-						</ul>
-					</div>
-				</div>
-
+				{% include "about" %}
 			</div>
-		</section>
+		</article>
 
-	<article class="portfolio" id="work">
+		<article class="work" id="work">
 		{% collection "work" %}
 			{% include "portfolio" with collection.items %}
 		{% endcollection %}
-	</article>
+		</article>
+		<!-- todo: add if statement that adds an id of work if it's the first one (for the nav) -->
 
-		<div id="links" class="hidden">
-			<h1>Contact</h1>
-			{{ 2 | lorem_ipsum:'p' }}
-		</section>
+		<div id="geo" class="hidden">
+			<a href="#" class="hamburger-close add-bottom">&times;</a>
+				<p class="muted">The pattern here is generated from my latest Foursquare checkin (currently: <span class="location-where"></span>). It displays a footprint of the buildings in the surrounding area. The idea is influenced by the artist <a href="http://www.tate.org.uk/art/artworks/coventry-east-street-estate-t12299/text-summary" title="Tate article on Keith Coventry" target="_blank">Keith Coventry</a>.</p>
+			</div>
+<!-- todo: animate in logo, nav etc -->
+
+<!-- todo: add mybuilder -->
+
+<!-- todo: add imhotep -->
+
+<!-- todo: delete done todos -->
 {% endblock %}
 
 {% block scripts %}
 
 	{{ "jquery.typer.js" | asset_url | script_tag }}
-	{{ "jquery.pageslide.js" | asset_url | script_tag }}
-	{{ "jquery.waypoints.min.js" | asset_url | script_tag }}
-	{{ "jquery.lettering-0.6.min.js" | asset_url | script_tag }}
 
 {% endblock %}

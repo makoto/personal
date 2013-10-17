@@ -31,11 +31,27 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <!-- todo: favicons -->
 
     <!-- jQuery
     ================================================== -->
     <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript">
+    WebFontConfig = {
+      custom: { families: ['Font Family Name', 'Another Font Family'],
+      urls: [ 'http://f.fontdeck.com/s/css/xxxx/domain/nnnn.css' ] }
+    };
 
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +   
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+    </script>
 
 </head>
 <body>
@@ -46,12 +62,16 @@
         <!-- Include -->
         {% include "header" %}
         <!-- Content block, child page inject content -->
-        {% block content %}{% endblock %}        
+        {% block content %}{% endblock %}   
+        <!-- Include footer -->
+        {% include "footer" %}     
 
     <!-- JS
     ================================================== -->
     {% block scripts %}{% endblock %}
-    {{ "jquery.unevent.js" | asset_url | script_tag }}
+    {{ "jquery.pageslide.js" | asset_url | script_tag }}
+    {{ "jquery.waypoints.min.js" | asset_url | script_tag }}
+    {{ "jquery.lazyload.min.js" | asset_url | script_tag }}
     {{ "app.js" | asset_url | script_tag }}
 
 <!-- End Document

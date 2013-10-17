@@ -39,6 +39,7 @@
   width: @logosize;
   height: @logosize;
   z-index: 9;
+  cursor: pointer;
 
   transition: all 0.2s ease-out;
 }
@@ -70,19 +71,37 @@
   display: none;
 }
 
-.hamburger, .beefburger {
-  color: fade(@black, 30%);
+.hamburger, .hamburger-close {
+  color: @black;
   z-index: 9;
+  width: 1em;
+  height: 1em;
+  border: 2px solid @black;
+  text-align: center;
+  display: block;
+  background: transparent;
+  &.hamburger-action {
+    z-index: 99; //ensure it's above top link
+  }
+  &:visited {
+    background: transparent;
+  }
+  &.hamburger-other {
+    position: fixed;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+    span {
+      display: none;
+    }
+  }
+}
+.affix .hamburger.hamburger-other {
+  opacity: 1;
 }
 .hamburger {
-  position: fixed;
-  top: 30px;
+  position: absolute;
+  top: 28px;
   left: 30px;
-}
-.beefburger {
-  position: fixed;
-  top: 30px;
-  right: 30px;
 }
 
 .navigation {
@@ -104,19 +123,35 @@ body.affix .navigation {
 nav {
   width: 206px;
   margin: 0 auto;
-  a {
+  transition: all 0.2s ease-out;
+  a, a:visited {
+    transition: all 0.2s ease-out;
     width: 100px;
     float: left;
     line-height: 2.2em;
     border: 2px solid @black;
     display: inline;
-    background: @white;
+    background: @black;
     text-align: center;
     text-decoration: none;
     z-index: 100;
-    &:hover, &.active {
-      background: @black;
-      color: @white;
+    position: relative;
+    color: @white;
+    &:hover, &.active, &:active {
+      background: @white;
+      color: @black;
+    }
+    &.active {
+      &:after {
+        content: '';
+        width: 10px;
+        height: 2px;
+        background: @black;
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        margin-left: -5px;
+      }
     }
   }
   & .tab-left {
@@ -130,13 +165,30 @@ nav {
 section {
   position: relative;
 }
-
+// @-webkit-keyframes adjustHue {  
+//    0% { -webkit-filter: hue-rotate(0deg); }  
+//    100% { -webkit-filter: hue-rotate(360deg); }     
+// }
 .home {
+  //-webkit-animation: adjustHue 30s alternate infinite;
   min-height: 300px;
+  background: no-repeat 0 0;
+  background-attachment: fixed;
+  overflow: hidden;
+  background-color: fade(pink, 15%);
+  -webkit-background-size: 100%; 
+  -moz-background-size: 100%; 
+  -o-background-size: 100%; 
+  background-size: 100%; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
   .container {
     height: 100%;
   }
-}
+}      
+
 .content {
   background: @white;
 }
@@ -164,7 +216,7 @@ h1.intro {
       content: '';
       width: 0.7em;
       height: 1.2em;
-      background-color: darken(@grayLight, 10%);
+      background-color: fade(@black, 10%);
       display: inline-block;
       vertical-align: middle;
       position: relative;
@@ -181,27 +233,57 @@ h1.intro {
 }
 
 .work {
-  overflow: hidden;
   position: relative;
+  overflow: hidden;
+  &.active-section {
+    overflow: scroll;
+
+  }
   .project-description {
     z-index: 0;
     text-align: center;
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    width: 100%;
-    margin: (@sitePadding * 6) 0;
-    //outline: 1px solid red;
-    display: block;
+    margin: (@sitePadding * 6) 0 (@sitePadding * 4);
   }
   .portfolio-image {
     z-index: 1;
     position: relative;
-    padding: (@sitePadding * 4) 0;
+    padding-bottom: (@sitePadding * 1.5);
     img {
       .box-shadow(0 30px 50px fade(@black, 50%));
-      margin-bottom: @sitePadding;
+      margin-bottom: (@sitePadding * 1.5);
+      min-height: 150px;
+      width: 100%;
+      background: #fff url("../img/ajax.gif") no-repeat 50% 50%;
+      color: transparent;
+      position: relative;
+      z-index: 8;
+      &:before {
+        content: 'loading';
+        text-align: center;
+        line-height: 150px;
+      }
     }
+    .img-link {
+      background: none;
+    }
+  }
+}
+
+.about {
+  .container {
+    padding-top: (@sitePadding * 6);
+  }
+}
+.toilet {
+-webkit-transform: translate3d(140px,0,0px);
+-webkit-animation-name: slideinfromright;
+}
+
+footer {
+  text-align: center;
+  padding-top: (@sitePadding * 6);
+  iframe {
+    margin-bottom: (@sitePadding * 1.5);
   }
 }
 
@@ -221,7 +303,19 @@ h1.intro {
   @media only screen and (min-width: 480px) and (max-width: 767px) {}
 
   /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-  @media only screen and (max-width: 479px) {}
+  @media only screen and (max-width: 479px) {
+    @sitePadding: (@fixedHeight / 2);
+    .tomcavill-logo {
+      right: 5px;
+      width: (@logosize * 0.8);
+      height: (@logosize * 0.8);
+      top: 13px;
+    }
+    .hamburger {
+      left: 10px;
+      top: 24px;
+    }
+  }
 
 
 // #Font-Face

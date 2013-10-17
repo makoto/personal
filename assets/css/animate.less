@@ -1,0 +1,122 @@
+.animated{-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-ms-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-duration:4s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}.animated.hinge{-webkit-animation-duration:1s;-moz-animation-duration:1s;-ms-animation-duration:1s;-o-animation-duration:1s;animation-duration:1s;}@-webkit-keyframes bounceInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateY(-2000px);
+	}	60% {
+		opacity: 1;
+		-webkit-transform: translateY(30px);
+	}
+	
+	80% {
+		-webkit-transform: translateY(-10px);
+	}
+	
+	100% {
+		-webkit-transform: translateY(0);
+	}
+}
+
+@-moz-keyframes bounceInDown {
+	0% {
+		opacity: 0;
+		-moz-transform: translateY(-2000px);
+	}
+	
+	60% {
+		opacity: 1;
+		-moz-transform: translateY(30px);
+	}
+	
+	80% {
+		-moz-transform: translateY(-10px);
+	}
+	
+	100% {
+		-moz-transform: translateY(0);
+	}
+}
+
+@-o-keyframes bounceInDown {
+	0% {
+		opacity: 0;
+		-o-transform: translateY(-2000px);
+	}
+	
+	60% {
+		opacity: 1;
+		-o-transform: translateY(30px);
+	}
+	
+	80% {
+		-o-transform: translateY(-10px);
+	}
+	
+	100% {
+		-o-transform: translateY(0);
+	}
+}
+
+@keyframes bounceInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-2000px);
+	}
+	
+	60% {
+		opacity: 1;
+		transform: translateY(30px);
+	}
+	
+	80% {
+		transform: translateY(-10px);
+	}
+	
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.bounceInDown {
+	-webkit-animation-name: bounceInDown;
+	-moz-animation-name: bounceInDown;
+	-o-animation-name: bounceInDown;
+	animation-name: bounceInDown;
+}
+@-webkit-keyframes hinge {
+	0% { -webkit-transform: rotate(0); -webkit-transform-origin: center left; -webkit-animation-timing-function: ease-in-out; }	
+	20%, 60% { -webkit-transform: rotate(100deg); -webkit-transform-origin: center left; -webkit-animation-timing-function: ease-in-out; }	
+	40% { -webkit-transform: rotate(80deg); -webkit-transform-origin: center left; -webkit-animation-timing-function: ease-in-out; }	
+	80% { -webkit-transform: rotate(80deg) translateY(0); opacity: 1; -webkit-transform-origin: center left; -webkit-animation-timing-function: ease-in-out; }	
+	100% { -webkit-transform: translateY(700px) translateX(-(@logosize)); opacity: 0; }
+}
+
+@-moz-keyframes hinge {
+	0% { -moz-transform: rotate(0); -moz-transform-origin: center left; -moz-animation-timing-function: ease-in-out; }	
+	20%, 60% { -moz-transform: rotate(100deg); -moz-transform-origin: center left; -moz-animation-timing-function: ease-in-out; }	
+	40% { -moz-transform: rotate(80deg); -moz-transform-origin: center left; -moz-animation-timing-function: ease-in-out; }	
+	80% { -moz-transform: rotate(80deg) translateY(0); opacity: 1; -moz-transform-origin: center left; -moz-animation-timing-function: ease-in-out; }	
+	100% { -moz-transform: translateY(700px); opacity: 0; }
+}
+
+@-o-keyframes hinge {
+	0% { -o-transform: rotate(0); -o-transform-origin: center left; -o-animation-timing-function: ease-in-out; }	
+	20%, 60% { -o-transform: rotate(100deg); -o-transform-origin: center left; -o-animation-timing-function: ease-in-out; }	
+	40% { -o-transform: rotate(80deg); -o-transform-origin: center left; -o-animation-timing-function: ease-in-out; }	
+	80% { -o-transform: rotate(80deg) translateY(0); opacity: 1; -o-transform-origin: center left; -o-animation-timing-function: ease-in-out; }	
+	100% { -o-transform: translateY(700px); opacity: 0; }
+}
+
+@keyframes hinge {
+	0% { transform: rotate(0); transform-origin: center left; animation-timing-function: ease-in-out; }	
+	20%, 60% { transform: rotate(0deg); transform-origin: center left; animation-timing-function: ease-in-out; }	
+	40% { transform: rotate(80deg); transform-origin: center left; animation-timing-function: ease-in-out; }	
+	80% { transform: rotate(80deg) translateY(0); opacity: 1; transform-origin: center left; animation-timing-function: ease-in-out; }	
+	100% { transform: translateY(700px); opacity: 0; }
+}
+
+.hinge {
+	-webkit-animation-name: hinge;
+	-moz-animation-name: hinge;
+	-o-animation-name: hinge;
+	animation-name: hinge;
+}

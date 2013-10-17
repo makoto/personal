@@ -1,0 +1,39 @@
+<div class="row clearfix">
+	<div class="six columns alpha">
+		<p>I'm Tom Cavill, a software product designer. In addition to creating my own products, I work on a freelance basis with technology startups in London and further afield.</p>
+
+		<p>I have experience in the design and development of applications for mobile platforms, the web and in desktop software. I prefer to be involved with a product at all levels, i.e. strategy, design and code.</p>
+
+		<p>Skills / buzzwords / hashtags: UI, UX, ID, IA, HTML &amp; CSS; Javascript (jQuery, Parse, Firebase, Meteor); Ruby (Rails); Git; Theme development for Shopify, Harmony, Tumblr; Project management; taking pictures of dogs.</p>
+	</div>
+	<div class="three columns offset-by-one">
+		<aside class="contact">
+			<p>Say hello:</p>
+			<ul>
+				<li><a href="mailto:tomcavill+dotcom@gmail.com" title="Email Tom Cavill">Email</a></li>
+				<li><a href="http://twitter.com/tomcavill" title="@tomcavill on Twitter">@tomcavill</a></li>
+			</ul>
+		</aside>
+		<aside class="work-list">
+			<h3>Selected work:</h3>
+			<ul class="work-list">
+			{% collection "work" %}
+			<!-- TODO: make alpha / omega -->
+				{% for project in collection.items %}
+				<!-- todo: sort by personal or client -->
+				<li><a href="#work-{{ project.title | truncatewords: 1, '' | downcase }}" title="">{{ project.title }}</a></li>
+				{% endfor %}
+			{% endcollection %}
+			</ul>
+		</aside>
+	</div>
+	<div class="five columns offset-by-one">
+		<p class="muted">Furthermore I:</p>
+		<ul class="muted">
+			<li>Like eating schnitzel and run an unpopular food blog</li>
+			<li>Have a D&amp;AD yellow pencil</li>
+			<li>Used to lecture interface design at the University of Leeds</li>
+			<li>Am building a product called Parley that will help OSS developers monetize their knowledge</li>
+		</ul>
+	</div>
+</div>
