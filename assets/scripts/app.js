@@ -58,7 +58,7 @@ $(function() {
 
  	$("nav a").on("click", function () {
 
-		console.log(this); // 'this' is a reserved/special word
+		//console.log(this); // 'this' is a reserved/special word
 
 		$(this).addClass("active");
 		$(this).siblings().removeClass("active");
@@ -66,7 +66,7 @@ $(function() {
 		// save the href of the link we just clicked
 		var href = $(this).attr("href");
 		var	c = $(this).attr("class");
-			console.log("we just clicked", href, "and", c);
+			//console.log("we just clicked", href, "and", c);
 
 		// find the top position
 		var t = $(href).offset().top; // remove nav height
