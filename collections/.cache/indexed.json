@@ -1,390 +1,161 @@
 {
   "work": {
-    "index": {
-      "backgroundcss": {
-        "#e2ded6": [
-          "/work/hasty"
-        ],
-        "#33e1d0": [
-          "/work/helvetitee"
-        ],
-        "#ff0055": [
-          "/work/readwave"
-        ],
-        "#ffcc00": [
-          "/work/dsgn-jbs"
-        ],
-        "#48abd0": [
-          "/work/top10"
-        ],
-        "#d3cdc1": [
-          "/work/top10-spotify"
-        ],
-        "#d3006f": [
-          "/work/autographer"
-        ],
-        "#eeeeee": [
-          "/work/forking-knife"
-        ],
-        "#d6bd8b": [
-          "/work/alice-is"
-        ]
-      },
-      "year": {
-        "2013": [
-          "/work/autographer",
-          "/work/top10",
-          "/work/forking-knife",
-          "/work/hasty",
-          "/work/readwave",
-          "/work/alice-is",
-          "/work/dsgn-jbs",
-          "/work/top10-spotify",
-          "/work/helvetitee"
-        ]
-      },
-      "mixture_date": {
-        "2013-10-15t00:00:00z": [
-          "/work/hasty"
-        ],
-        "2013-10-16t00:00:00z": [
-          "/work/dsgn-jbs"
-        ],
-        "2013-10-13t00:00:00z": [
-          "/work/top10-spotify"
-        ],
-        "2013-10-10t00:00:00z": [
-          "/work/forking-knife"
-        ],
-        "2013-10-14t00:00:00z": [
-          "/work/top10"
-        ],
-        "2013-10-18t00:00:00z": [
-          "/work/autographer"
-        ],
-        "2013-09-15t00:00:00z": [
-          "/work/alice-is"
-        ],
-        "2013-08-07t00:00:00z": [
-          "/work/readwave"
-        ],
-        "2013-10-17t00:00:00z": [
-          "/work/helvetitee"
-        ]
-      },
-      "url": {
-        "http://helvetitee.com": [
-          "/work/helvetitee"
-        ],
-        "http://readwave.com": [
-          "/work/readwave"
-        ],
-        "http://dsgnjbs.com": [
-          "/work/dsgn-jbs"
-        ],
-        "http://share.autographer.com": [
-          "/work/autographer"
-        ],
-        "http://alice.is": [
-          "/work/alice-is"
-        ],
-        "http://forkingknife.com": [
-          "/work/forking-knife"
-        ]
-      },
-      "images": {
-        "readwave1.png": [
-          "/work/readwave"
-        ],
-        "dsgnjbs-full.jpg": [
-          "/work/dsgn-jbs"
-        ],
-        "alice-is2.png": [
-          "/work/alice-is"
-        ],
-        "forkingknife.png": [
-          "/work/forking-knife"
-        ],
-        "autographer1.png": [
-          "/work/autographer"
-        ],
-        "spotify2.jpg": [
-          "/work/top10-spotify"
-        ],
-        "spotify3.jpg": [
-          "/work/top10-spotify"
-        ],
-        "alice-is.jpg": [
-          "/work/alice-is"
-        ],
-        "top10-2.png": [
-          "/work/top10"
-        ],
-        "top10.png": [
-          "/work/top10"
-        ],
-        "spotify.jpg": [
-          "/work/top10-spotify"
-        ],
-        "autographer2.png": [
-          "/work/autographer"
-        ],
-        "helvetitee-full.jpg": [
-          "/work/helvetitee"
-        ],
-        "helvetitee-press.jpg": [
-          "/work/helvetitee"
-        ],
-        "forkingknife2.gif": [
-          "/work/forking-knife"
-        ]
-      },
-      "format": {
-        "ios app": [
-          "/work/hasty"
-        ],
-        "responsive web app": [
-          "/work/autographer",
-          "/work/readwave"
-        ],
-        "responsive blog": [
-          "/work/forking-knife",
-          "/work/alice-is"
-        ]
-      },
-      "month": {
-        "10": [
-          "/work/autographer",
-          "/work/top10",
-          "/work/forking-knife",
-          "/work/hasty",
-          "/work/dsgn-jbs",
-          "/work/top10-spotify",
-          "/work/helvetitee"
-        ],
-        "09": [
-          "/work/alice-is"
-        ],
-        "08": [
-          "/work/readwave"
-        ]
-      },
-      "mixture_month_year": {
-        "08/2013": [
-          "/work/readwave"
-        ],
-        "09/2013": [
-          "/work/alice-is"
-        ],
-        "10/2013": [
-          "/work/autographer",
-          "/work/top10",
-          "/work/forking-knife",
-          "/work/hasty",
-          "/work/dsgn-jbs",
-          "/work/top10-spotify",
-          "/work/helvetitee"
-        ]
-      },
-      "slug": {
-        "/work/autographer": [
-          "/work/autographer"
-        ],
-        "/work/top10": [
-          "/work/top10"
-        ],
-        "/work/forking-knife": [
-          "/work/forking-knife"
-        ],
-        "/work/hasty": [
-          "/work/hasty"
-        ],
-        "/work/alice-is": [
-          "/work/alice-is"
-        ],
-        "/work/readwave": [
-          "/work/readwave"
-        ],
-        "/work/top10-spotify": [
-          "/work/top10-spotify"
-        ],
-        "/work/dsgn-jbs": [
-          "/work/dsgn-jbs"
-        ],
-        "/work/helvetitee": [
-          "/work/helvetitee"
-        ]
-      },
-      "title": {
-        "readwave": [
-          "/work/readwave"
-        ],
-        "alice is": [
-          "/work/alice-is"
-        ],
-        "top10": [
-          "/work/top10"
-        ],
-        "hasty": [
-          "/work/hasty"
-        ],
-        "forking knife": [
-          "/work/forking-knife"
-        ],
-        "top10 spotify app": [
-          "/work/top10-spotify"
-        ],
-        "helvetitee": [
-          "/work/helvetitee"
-        ],
-        "autographer": [
-          "/work/autographer"
-        ],
-        "dsgn jbs": [
-          "/work/dsgn-jbs"
-        ]
-      },
-      "mobile-images": {
-        "autographer3.png": [
-          "/work/autographer"
-        ],
-        "dsgnjbs-phone.jpg": [
-          "/work/dsgn-jbs"
-        ],
-        "hasty.jpg": [
-          "/work/hasty"
-        ]
-      },
-      "ticks": {
-        "1381622400.0": [
-          "/work/top10-spotify"
-        ],
-        "1381968000.0": [
-          "/work/helvetitee"
-        ],
-        "1382054400.0": [
-          "/work/autographer"
-        ],
-        "1381363200.0": [
-          "/work/forking-knife"
-        ],
-        "1375833600.0": [
-          "/work/readwave"
-        ],
-        "1381795200.0": [
-          "/work/hasty"
-        ],
-        "1381708800.0": [
-          "/work/top10"
-        ],
-        "1379203200.0": [
-          "/work/alice-is"
-        ],
-        "1381881600.0": [
-          "/work/dsgn-jbs"
-        ]
-      },
-      "role": {
-        "idea": [
-          "/work/dsgn-jbs",
-          "/work/helvetitee"
-        ],
-        "ux": [
-          "/work/top10",
-          "/work/top10-spotify"
-        ],
-        "ui": [
-          "/work/top10",
-          "/work/top10-spotify"
-        ],
-        "wireframing": [
-          "/work/top10",
-          "/work/top10-spotify"
-        ],
-        "css": [
-          "/work/autographer",
-          "/work/top10",
-          "/work/forking-knife"
-        ],
-        "html": [
-          "/work/autographer",
-          "/work/top10",
-          "/work/forking-knife"
-        ],
-        "design": [
-          "/work/autographer",
-          "/work/forking-knife",
-          "/work/hasty",
-          "/work/readwave",
-          "/work/alice-is",
-          "/work/dsgn-jbs",
-          "/work/helvetitee"
-        ],
-        "ruby on rails": [
-          "/work/autographer"
-        ],
-        "concept": [
-          "/work/forking-knife",
-          "/work/alice-is"
-        ],
-        "build": [
-          "/work/alice-is",
-          "/work/dsgn-jbs"
-        ],
-        "front-end": [
-          "/work/helvetitee"
-        ],
-        "consultancy": [
-          "/work/autographer",
-          "/work/hasty",
-          "/work/readwave"
-        ],
-        "js": [
-          "/work/autographer"
-        ],
-        "writing": [
-          "/work/forking-knife"
-        ]
-      },
-      "type": {
-        "client": [
-          "/work/autographer",
-          "/work/hasty",
-          "/work/readwave",
-          "/work/alice-is"
-        ],
-        "employment (lead designer)": [
-          "/work/top10",
-          "/work/top10-spotify"
-        ],
-        "personal": [
-          "/work/forking-knife",
-          "/work/dsgn-jbs",
-          "/work/helvetitee"
-        ]
-      }
-    },
     "collection": {
-      "/work/autographer": {
-        "mixture_date": "2013-10-18T00:00:00Z",
-        "year": "2013",
-        "backgroundcss": "#d3006f",
-        "images": [
-          "autographer1.png",
-          "autographer2.png"
-        ],
-        "published": true,
-        "url": "http://share.autographer.com",
-        "format": "Responsive web app",
-        "body": "\n<p>Autographer is a wearable, intelligent camera that takes photos automatically -- a life-logging device. I worked in a consultancy, designer and developer role on the camera's companion sharing service, which enables camera owners to quickly share their photos, videos and gifs to the web and on to other social services.</p>",
+      "/work/dsgn-jbs": {
+        "slug": "/work/dsgn-jbs",
         "mixture_month_year": "10/2013",
+        "backgroundcss": "#ffcc00",
+        "date": "Wed Oct 16 00:00:00 UTC 2013",
+        "ticks": 1381881600.0,
+        "mobile-images": [
+          "dsgnjbs-phone.jpg"
+        ],
+        "type": "Personal",
+        "year": "2013",
+        "role": [
+          "idea",
+          "design",
+          "build"
+        ],
+        "title": "DSGN JBS",
+        "images": [
+          "dsgnjbs-full.jpg"
+        ],
+        "mixture_date": "2013-10-16T00:00:00Z",
         "month": "10",
+        "url": "http://dsgnjbs.com",
+        "body": "\n<p>Dsgn Jbs is a personal project, born out of frustration (or perhaps laziness).</p>\n\n<p>I regularly check the various design job boards, but opening each after the other is a bit laborious. So, instead, I used IFTT to amalgamate various RSS feeds into one Twitter stream (@dsgnjbs), and then created a responsive site to show off the stream.</p>",
+        "published": true
+      },
+      "/work/readwave": {
+        "format": "Responsive web app",
+        "slug": "/work/readwave",
+        "mixture_month_year": "08/2013",
+        "backgroundcss": "#ff0055",
+        "date": "Wed Aug 07 00:00:00 UTC 2013",
+        "ticks": 1375833600.0,
+        "type": "client",
+        "year": "2013",
+        "role": [
+          "Design",
+          "Consultancy"
+        ],
+        "title": "Readwave",
+        "images": [
+          "readwave1.png"
+        ],
+        "mixture_date": "2013-08-07T00:00:00Z",
+        "month": "08",
+        "url": "http://readwave.com",
+        "body": "\n<p>I was tasked with giving ReadWave -- a place for amateur writers to upload their stories -- a complete design overhaul and to refresh their branding.</p>\n\n<p>A more vibrant colour palette was introduced to induce feelings of excitement about the content available to readers, replacing a tired, muted blue and yellow scheme; whilst an unmissable call to action prompted would-be Rowlings to show off their ability.</p>",
+        "published": true
+      },
+      "/work/alice-is": {
+        "format": "Responsive blog",
+        "slug": "/work/alice-is",
+        "mixture_month_year": "09/2013",
+        "backgroundcss": "#d6bd8b",
+        "date": "Sun Sep 15 00:00:00 UTC 2013",
+        "ticks": 1379203200.0,
+        "type": "client",
+        "year": "2013",
+        "role": [
+          "Design",
+          "Build",
+          "concept"
+        ],
+        "title": "Alice is",
+        "images": [
+          "alice-is.jpg",
+          "alice-is2.png"
+        ],
+        "mixture_date": "2013-09-15T00:00:00Z",
+        "month": "09",
+        "url": "http://alice.is",
+        "body": "\n<p>Alice Feaver is a chef and illustrator. She required a custom blog that would allow her to create both recipe and drawing posts.</p>\n\n<p>I built the blog using Harmony in order that a nice URL structure could be put in place utilising the ‘alice.is’ domain (e.g. alice.is/cooking/vegetable-fritters). The site also includes hundreds of digitised recipes from Alice’s notes, and is fully responsive from desktop to mobile.</p>",
+        "published": true
+      },
+      "/work/top10-spotify": {
+        "slug": "/work/top10-spotify",
+        "mixture_month_year": "10/2013",
+        "backgroundcss": "#d3cdc1",
+        "date": "Sun Oct 13 00:00:00 UTC 2013",
+        "ticks": 1381622400.0,
+        "type": "Employment (lead designer)",
+        "year": "2013",
+        "role": [
+          "UI",
+          "UX",
+          "wireframing"
+        ],
+        "title": "Top10 Spotify App",
+        "images": [
+          "spotify.jpg",
+          "spotify3.jpg",
+          "spotify2.jpg"
+        ],
+        "mixture_date": "2013-10-13T00:00:00Z",
+        "month": "10",
+        "body": "\n<p>One of the first 12 Spotify apps, and still among the most popular today.</p>\n\n<p>The app’s users made over one million song recommendations in the first six months. The UX received high praise in various media such as TechCrunch and GigaOm.</p>",
+        "published": true
+      },
+      "/work/top10": {
+        "slug": "/work/top10",
+        "mixture_month_year": "10/2013",
+        "backgroundcss": "#48abd0",
+        "date": "Mon Oct 14 00:00:00 UTC 2013",
+        "ticks": 1381708800.0,
+        "type": "Employment (lead designer)",
+        "year": "2013",
+        "role": [
+          "UI",
+          "UX",
+          "html",
+          "css",
+          "wireframing"
+        ],
+        "title": "Top10",
+        "images": [
+          "top10.jpg",
+          "top10-2.png"
+        ],
+        "mixture_date": "2013-10-14T00:00:00Z",
+        "month": "10",
+        "body": "\n<p>I worked as Lead Designer at Top10.com from 2010 to July 2012, overseeing 3 iterations of the web app product.</p>\n\n<p>Praise for the design came from notable industry figures such as Aarron Walter (MailChimp), Dave McClure (PayPal, 500 startups) and Nick Halstead (DataSift).</p>",
+        "published": true
+      },
+      "/work/mybuilder": {
+        "slug": "/work/mybuilder",
+        "mixture_month_year": "10/2013",
+        "backgroundcss": "#DDEF7F",
+        "date": "Tue Oct 08 00:00:00 UTC 2013",
+        "ticks": 1381190400.0,
+        "type": "Client",
+        "year": "2013",
+        "role": [
+          "Art direction"
+        ],
+        "title": "MyBuilder",
+        "images": [
+          "mybuilder.png"
+        ],
+        "mixture_date": "2013-10-08T00:00:00Z",
+        "month": "10",
+        "body": "\n<p>MyBuilder is a London startup success story, but felt they weren't making the most of their unrivalled customer satisfaction levels. Founder Ryan approached me to art-direct a new homepage that better told the story of their brilliant product, and the thousands of tradesmen that depend upon it for their livelihoods. Additional design and development by Will Thomas.</p>",
+        "published": true
+      },
+      "/work/autographer": {
+        "format": "Responsive web app",
         "slug": "/work/autographer",
+        "mixture_month_year": "10/2013",
+        "backgroundcss": "#ed2368",
+        "date": "Fri Oct 18 00:00:00 UTC 2013",
         "ticks": 1382054400.0,
         "mobile-images": [
           "autographer3.png"
         ],
-        "title": "Autographer",
+        "type": "client",
+        "year": "2013",
         "role": [
           "Design",
           "HTML",
@@ -393,51 +164,72 @@
           "Ruby on Rails",
           "Consultancy"
         ],
-        "date": "Fri Oct 18 00:00:00 UTC 2013",
-        "type": "client"
-      },
-      "/work/top10": {
-        "mixture_date": "2013-10-14T00:00:00Z",
-        "year": "2013",
-        "backgroundcss": "#48abd0",
+        "title": "Autographer",
         "images": [
-          "top10.png",
-          "top10-2.png"
+          "autographer1.jpg",
+          "autographer2.png"
         ],
-        "published": true,
-        "body": "\n<p>I worked as Lead Designer at Top10.com from 2010 to July 2012, overseeing 3 iterations of the web app product.</p>\n\n<p>Praise for the design came from notable industry figures such as Aarron Walter (MailChimp), Dave McClure (PayPal, 500 startups) and Nick Halstead (DataSift).</p>",
-        "mixture_month_year": "10/2013",
+        "mixture_date": "2013-10-18T00:00:00Z",
         "month": "10",
-        "slug": "/work/top10",
-        "ticks": 1381708800.0,
-        "title": "Top10",
+        "url": "http://share.autographer.com",
+        "body": "\n<p>Autographer is a wearable, intelligent camera that takes photos automatically -- a life-logging device. I worked in a consultancy, designer and developer role on the camera's companion sharing service, which enables camera owners to quickly share their photos, videos and gifs to the web and on to other social services.</p>",
+        "published": true
+      },
+      "/work/helvetitee": {
+        "slug": "/work/helvetitee",
+        "mixture_month_year": "10/2013",
+        "backgroundcss": "#33e1d0",
+        "date": "Thu Oct 17 00:00:00 UTC 2013",
+        "ticks": 1381968000.0,
+        "type": "Personal",
+        "year": "2013",
         "role": [
-          "UI",
-          "UX",
-          "html",
-          "css",
-          "wireframing"
+          "idea",
+          "design",
+          "front-end"
         ],
-        "date": "Mon Oct 14 00:00:00 UTC 2013",
-        "type": "Employment (lead designer)"
+        "title": "Helvetitee",
+        "images": [
+          "helvetitee-full.jpg",
+          "helvetitee-press.jpg"
+        ],
+        "mixture_date": "2013-10-17T00:00:00Z",
+        "month": "10",
+        "url": "http://helvetitee.com",
+        "body": "\n<p>Helvetitee was the result of a four-day hack by developer Chico Charlesworth and I. We wanted to create a product that would gain traction virally, but be as simple and quick to develop as possible.</p>\n\n<p>Tshirt sites are often bloated, whereas Helvetitee offers no options -- ”the ultimate hipster accessory” as one blogger called it. We were featured on the Hacker News front page, Design Milk, Coudal.com, Inqmind, SiteInspire and many more.</p>",
+        "published": true
+      },
+      "/work/hasty": {
+        "format": "iOS app",
+        "slug": "/work/hasty",
+        "mixture_month_year": "10/2013",
+        "backgroundcss": "#e2ded6",
+        "date": "Tue Oct 15 00:00:00 UTC 2013",
+        "ticks": 1381795200.0,
+        "mobile-images": [
+          "hasty.jpg"
+        ],
+        "type": "client",
+        "year": "2013",
+        "role": [
+          "Design",
+          "Consultancy"
+        ],
+        "title": "Hasty",
+        "mixture_date": "2013-10-15T00:00:00Z",
+        "month": "10",
+        "body": "\n<p>I helped San Francisco-based Hasty with the early versions of their iOS app, as they raised seed funding. The app enables health conscious individuals to order takeout, filtered by nutritional value.</p>",
+        "published": true
       },
       "/work/forking-knife": {
-        "mixture_date": "2013-10-10T00:00:00Z",
-        "year": "2013",
-        "backgroundcss": "#eeeeee",
-        "images": [
-          "forkingknife.png",
-          "forkingknife2.gif"
-        ],
-        "published": true,
-        "url": "http://forkingknife.com",
         "format": "Responsive blog",
-        "body": "\n<p>Repsonsive, art-directed food blog with a focus on the London restaurant scene.</p>\n\n<p>Reviews are written and designed by me, with Alice Feaver providing the illustration.</p>",
-        "mixture_month_year": "10/2013",
-        "month": "10",
         "slug": "/work/forking-knife",
+        "mixture_month_year": "10/2013",
+        "backgroundcss": "#eeeeee",
+        "date": "Thu Oct 10 00:00:00 UTC 2013",
         "ticks": 1381363200.0,
-        "title": "Forking Knife",
+        "type": "personal",
+        "year": "2013",
         "role": [
           "Design",
           "HTML",
@@ -445,152 +237,405 @@
           "writing",
           "concept"
         ],
-        "date": "Thu Oct 10 00:00:00 UTC 2013",
-        "type": "personal"
-      },
-      "/work/hasty": {
-        "mixture_date": "2013-10-15T00:00:00Z",
-        "year": "2013",
-        "backgroundcss": "#e2ded6",
-        "published": true,
-        "format": "iOS app",
-        "body": "\n<p>I helped San Francisco-based Hasty with the early versions of their iOS app, as they raised seed funding. The app enables health conscious individuals to order takeout, filtered by nutritional value.</p>",
-        "mixture_month_year": "10/2013",
+        "title": "Forking Knife",
+        "images": [
+          "forkingknife.png",
+          "forkingknife2.gif"
+        ],
+        "mixture_date": "2013-10-10T00:00:00Z",
         "month": "10",
-        "slug": "/work/hasty",
-        "ticks": 1381795200.0,
-        "mobile-images": [
-          "hasty.jpg"
+        "url": "http://forkingknife.com",
+        "body": "\n<p>Repsonsive, art-directed food blog with a focus on the London restaurant scene.</p>\n\n<p>Reviews are written and designed by me, with Alice Feaver providing the illustration.</p>",
+        "published": true
+      }
+    },
+    "index": {
+      "format": {
+        "ios app": [
+          "/work/hasty"
         ],
-        "title": "Hasty",
-        "role": [
-          "Design",
-          "Consultancy"
+        "responsive blog": [
+          "/work/alice-is",
+          "/work/forking-knife"
         ],
-        "date": "Tue Oct 15 00:00:00 UTC 2013",
-        "type": "client"
+        "responsive web app": [
+          "/work/readwave",
+          "/work/autographer"
+        ]
       },
-      "/work/readwave": {
-        "mixture_date": "2013-08-07T00:00:00Z",
-        "year": "2013",
-        "backgroundcss": "#ff0055",
-        "images": [
-          "readwave1.png"
+      "slug": {
+        "/work/dsgn-jbs": [
+          "/work/dsgn-jbs"
         ],
-        "published": true,
-        "url": "http://readwave.com",
-        "format": "Responsive web app",
-        "body": "\n<p>I was tasked with giving ReadWave -- a place for amateur writers to upload their stories -- a complete design overhaul and to refresh their branding.</p>\n\n<p>A more vibrant colour palette was introduced to induce feelings of excitement about the content available to readers, replacing a tired, muted blue and yellow scheme; whilst an unmissable call to action prompted would-be Rowlings to show off their ability.</p>",
-        "mixture_month_year": "08/2013",
-        "month": "08",
-        "slug": "/work/readwave",
-        "ticks": 1375833600.0,
-        "title": "Readwave",
-        "role": [
-          "Design",
-          "Consultancy"
+        "/work/mybuilder": [
+          "/work/mybuilder"
         ],
-        "date": "Wed Aug 07 00:00:00 UTC 2013",
-        "type": "client"
+        "/work/top10": [
+          "/work/top10"
+        ],
+        "/work/top10-spotify": [
+          "/work/top10-spotify"
+        ],
+        "/work/alice-is": [
+          "/work/alice-is"
+        ],
+        "/work/readwave": [
+          "/work/readwave"
+        ],
+        "/work/autographer": [
+          "/work/autographer"
+        ],
+        "/work/helvetitee": [
+          "/work/helvetitee"
+        ],
+        "/work/forking-knife": [
+          "/work/forking-knife"
+        ],
+        "/work/hasty": [
+          "/work/hasty"
+        ]
       },
-      "/work/alice-is": {
-        "mixture_date": "2013-09-15T00:00:00Z",
-        "year": "2013",
-        "backgroundcss": "#d6bd8b",
-        "images": [
-          "alice-is.jpg",
-          "alice-is2.png"
+      "backgroundcss": {
+        "#d3cdc1": [
+          "/work/top10-spotify"
         ],
-        "published": true,
-        "url": "http://alice.is",
-        "format": "Responsive blog",
-        "body": "\n<p>Alice Feaver is a chef and illustrator. She required a custom blog that would allow her to create both recipe and drawing posts.</p>\n\n<p>I built the blog using Harmony in order that a nice URL structure could be put in place utilising the ‘alice.is’ domain (e.g. alice.is/cooking/vegetable-fritters). The site also includes hundreds of digitised recipes from Alice’s notes, and is fully responsive from desktop to mobile.</p>",
-        "mixture_month_year": "09/2013",
-        "month": "09",
-        "slug": "/work/alice-is",
-        "ticks": 1379203200.0,
-        "title": "Alice is",
-        "role": [
-          "Design",
-          "Build",
-          "concept"
+        "#d6bd8b": [
+          "/work/alice-is"
         ],
-        "date": "Sun Sep 15 00:00:00 UTC 2013",
-        "type": "client"
+        "#ff0055": [
+          "/work/readwave"
+        ],
+        "#ffcc00": [
+          "/work/dsgn-jbs"
+        ],
+        "#ed2368": [
+          "/work/autographer"
+        ],
+        "#48abd0": [
+          "/work/top10"
+        ],
+        "#eeeeee": [
+          "/work/forking-knife"
+        ],
+        "#e2ded6": [
+          "/work/hasty"
+        ],
+        "#33e1d0": [
+          "/work/helvetitee"
+        ],
+        "#ddef7f": [
+          "/work/mybuilder"
+        ]
       },
-      "/work/dsgn-jbs": {
-        "mixture_date": "2013-10-16T00:00:00Z",
-        "year": "2013",
-        "backgroundcss": "#ffcc00",
-        "images": [
-          "dsgnjbs-full.jpg"
+      "mixture_month_year": {
+        "10/2013": [
+          "/work/dsgn-jbs",
+          "/work/top10-spotify",
+          "/work/top10",
+          "/work/mybuilder",
+          "/work/autographer",
+          "/work/helvetitee",
+          "/work/hasty",
+          "/work/forking-knife"
         ],
-        "published": true,
-        "url": "http://dsgnjbs.com",
-        "body": "\n<p>Dsgn Jbs is a personal project, born out of frustration (or perhaps laziness).</p>\n\n<p>I regularly check the various design job boards, but opening each after the other is a bit laborious. So, instead, I used IFTT to amalgamate various RSS feeds into one Twitter stream (@dsgnjbs), and then created a responsive site to show off the stream.</p>",
-        "mixture_month_year": "10/2013",
-        "month": "10",
-        "slug": "/work/dsgn-jbs",
-        "ticks": 1381881600.0,
-        "mobile-images": [
-          "dsgnjbs-phone.jpg"
+        "09/2013": [
+          "/work/alice-is"
         ],
-        "title": "DSGN JBS",
-        "role": [
-          "idea",
-          "design",
-          "build"
-        ],
-        "date": "Wed Oct 16 00:00:00 UTC 2013",
-        "type": "Personal"
+        "08/2013": [
+          "/work/readwave"
+        ]
       },
-      "/work/top10-spotify": {
-        "mixture_date": "2013-10-13T00:00:00Z",
-        "year": "2013",
-        "backgroundcss": "#d3cdc1",
-        "images": [
-          "spotify.jpg",
-          "spotify3.jpg",
-          "spotify2.jpg"
+      "type": {
+        "employment (lead designer)": [
+          "/work/top10-spotify",
+          "/work/top10"
         ],
-        "published": true,
-        "body": "\n<p>One of the first 12 Spotify apps, and still among the most popular today.</p>\n\n<p>The app’s users made over one million song recommendations in the first six months. The UX received high praise in various media such as TechCrunch and GigaOm.</p>",
-        "mixture_month_year": "10/2013",
-        "month": "10",
-        "slug": "/work/top10-spotify",
-        "ticks": 1381622400.0,
-        "title": "Top10 Spotify App",
-        "role": [
-          "UI",
-          "UX",
-          "wireframing"
+        "client": [
+          "/work/readwave",
+          "/work/alice-is",
+          "/work/mybuilder",
+          "/work/autographer",
+          "/work/hasty"
         ],
-        "date": "Sun Oct 13 00:00:00 UTC 2013",
-        "type": "Employment (lead designer)"
+        "personal": [
+          "/work/dsgn-jbs",
+          "/work/helvetitee",
+          "/work/forking-knife"
+        ]
       },
-      "/work/helvetitee": {
-        "mixture_date": "2013-10-17T00:00:00Z",
-        "year": "2013",
-        "backgroundcss": "#33e1d0",
-        "images": [
-          "helvetitee-full.jpg",
-          "helvetitee-press.jpg"
+      "mobile-images": {
+        "autographer3.png": [
+          "/work/autographer"
         ],
-        "published": true,
-        "url": "http://helvetitee.com",
-        "body": "\n<p>Helvetitee was the result of a four-day hack by developer Chico Charlesworth and I. We wanted to create a product that would gain traction virally, but be as simple and quick to develop as possible.</p>\n\n<p>Tshirt sites are often bloated, whereas Helvetitee offers no options -- ”the ultimate hipster accessory” as one blogger called it. We were featured on the Hacker News front page, Design Milk, Coudal.com, Inqmind, SiteInspire and many more.</p>",
-        "mixture_month_year": "10/2013",
-        "month": "10",
-        "slug": "/work/helvetitee",
-        "ticks": 1381968000.0,
-        "title": "Helvetitee",
-        "role": [
-          "idea",
-          "design",
-          "front-end"
+        "hasty.jpg": [
+          "/work/hasty"
         ],
-        "date": "Thu Oct 17 00:00:00 UTC 2013",
-        "type": "Personal"
+        "dsgnjbs-phone.jpg": [
+          "/work/dsgn-jbs"
+        ]
+      },
+      "ticks": {
+        "1382054400.0": [
+          "/work/autographer"
+        ],
+        "1381622400.0": [
+          "/work/top10-spotify"
+        ],
+        "1381190400.0": [
+          "/work/mybuilder"
+        ],
+        "1379203200.0": [
+          "/work/alice-is"
+        ],
+        "1381968000.0": [
+          "/work/helvetitee"
+        ],
+        "1381708800.0": [
+          "/work/top10"
+        ],
+        "1381363200.0": [
+          "/work/forking-knife"
+        ],
+        "1375833600.0": [
+          "/work/readwave"
+        ],
+        "1381881600.0": [
+          "/work/dsgn-jbs"
+        ],
+        "1381795200.0": [
+          "/work/hasty"
+        ]
+      },
+      "title": {
+        "readwave": [
+          "/work/readwave"
+        ],
+        "helvetitee": [
+          "/work/helvetitee"
+        ],
+        "top10 spotify app": [
+          "/work/top10-spotify"
+        ],
+        "dsgn jbs": [
+          "/work/dsgn-jbs"
+        ],
+        "forking knife": [
+          "/work/forking-knife"
+        ],
+        "hasty": [
+          "/work/hasty"
+        ],
+        "mybuilder": [
+          "/work/mybuilder"
+        ],
+        "top10": [
+          "/work/top10"
+        ],
+        "alice is": [
+          "/work/alice-is"
+        ],
+        "autographer": [
+          "/work/autographer"
+        ]
+      },
+      "role": {
+        "css": [
+          "/work/top10",
+          "/work/autographer",
+          "/work/forking-knife"
+        ],
+        "ux": [
+          "/work/top10-spotify",
+          "/work/top10"
+        ],
+        "ui": [
+          "/work/top10-spotify",
+          "/work/top10"
+        ],
+        "idea": [
+          "/work/dsgn-jbs",
+          "/work/helvetitee"
+        ],
+        "writing": [
+          "/work/forking-knife"
+        ],
+        "wireframing": [
+          "/work/top10-spotify",
+          "/work/top10"
+        ],
+        "consultancy": [
+          "/work/readwave",
+          "/work/autographer",
+          "/work/hasty"
+        ],
+        "build": [
+          "/work/dsgn-jbs",
+          "/work/alice-is"
+        ],
+        "js": [
+          "/work/autographer"
+        ],
+        "art direction": [
+          "/work/mybuilder"
+        ],
+        "front-end": [
+          "/work/helvetitee"
+        ],
+        "design": [
+          "/work/dsgn-jbs",
+          "/work/readwave",
+          "/work/alice-is",
+          "/work/autographer",
+          "/work/helvetitee",
+          "/work/hasty",
+          "/work/forking-knife"
+        ],
+        "ruby on rails": [
+          "/work/autographer"
+        ],
+        "html": [
+          "/work/top10",
+          "/work/autographer",
+          "/work/forking-knife"
+        ],
+        "concept": [
+          "/work/alice-is",
+          "/work/forking-knife"
+        ]
+      },
+      "year": {
+        "2013": [
+          "/work/dsgn-jbs",
+          "/work/readwave",
+          "/work/alice-is",
+          "/work/top10-spotify",
+          "/work/top10",
+          "/work/mybuilder",
+          "/work/autographer",
+          "/work/helvetitee",
+          "/work/hasty",
+          "/work/forking-knife"
+        ]
+      },
+      "images": {
+        "forkingknife2.gif": [
+          "/work/forking-knife"
+        ],
+        "helvetitee-full.jpg": [
+          "/work/helvetitee"
+        ],
+        "helvetitee-press.jpg": [
+          "/work/helvetitee"
+        ],
+        "forkingknife.png": [
+          "/work/forking-knife"
+        ],
+        "dsgnjbs-full.jpg": [
+          "/work/dsgn-jbs"
+        ],
+        "autographer1.jpg": [
+          "/work/autographer"
+        ],
+        "spotify2.jpg": [
+          "/work/top10-spotify"
+        ],
+        "autographer2.png": [
+          "/work/autographer"
+        ],
+        "top10.jpg": [
+          "/work/top10"
+        ],
+        "alice-is.jpg": [
+          "/work/alice-is"
+        ],
+        "mybuilder.png": [
+          "/work/mybuilder"
+        ],
+        "spotify3.jpg": [
+          "/work/top10-spotify"
+        ],
+        "readwave1.png": [
+          "/work/readwave"
+        ],
+        "top10-2.png": [
+          "/work/top10"
+        ],
+        "spotify.jpg": [
+          "/work/top10-spotify"
+        ],
+        "alice-is2.png": [
+          "/work/alice-is"
+        ]
+      },
+      "month": {
+        "10": [
+          "/work/dsgn-jbs",
+          "/work/top10-spotify",
+          "/work/top10",
+          "/work/mybuilder",
+          "/work/autographer",
+          "/work/helvetitee",
+          "/work/hasty",
+          "/work/forking-knife"
+        ],
+        "09": [
+          "/work/alice-is"
+        ],
+        "08": [
+          "/work/readwave"
+        ]
+      },
+      "mixture_date": {
+        "2013-10-10t00:00:00z": [
+          "/work/forking-knife"
+        ],
+        "2013-10-18t00:00:00z": [
+          "/work/autographer"
+        ],
+        "2013-10-15t00:00:00z": [
+          "/work/hasty"
+        ],
+        "2013-10-13t00:00:00z": [
+          "/work/top10-spotify"
+        ],
+        "2013-10-17t00:00:00z": [
+          "/work/helvetitee"
+        ],
+        "2013-09-15t00:00:00z": [
+          "/work/alice-is"
+        ],
+        "2013-10-14t00:00:00z": [
+          "/work/top10"
+        ],
+        "2013-08-07t00:00:00z": [
+          "/work/readwave"
+        ],
+        "2013-10-16t00:00:00z": [
+          "/work/dsgn-jbs"
+        ],
+        "2013-10-08t00:00:00z": [
+          "/work/mybuilder"
+        ]
+      },
+      "url": {
+        "http://alice.is": [
+          "/work/alice-is"
+        ],
+        "http://dsgnjbs.com": [
+          "/work/dsgn-jbs"
+        ],
+        "http://forkingknife.com": [
+          "/work/forking-knife"
+        ],
+        "http://helvetitee.com": [
+          "/work/helvetitee"
+        ],
+        "http://share.autographer.com": [
+          "/work/autographer"
+        ],
+        "http://readwave.com": [
+          "/work/readwave"
+        ]
       }
     }
   }

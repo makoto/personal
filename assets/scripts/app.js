@@ -18,8 +18,10 @@ $(function() {
  	$('h1.intro').css('margin-top',-nh*0.5)
 
  	// typer
- 	$('.typer').typeTo("Hi. I'm Tom, a product designer in London.");
- 	$.typer.options.typeSpeed = 80;
+ 	$(document).ready(function() {
+	 	$('.typer').typeTo("Hi. I'm Tom, a product designer in London.");
+ 		$.typer.options.typeSpeed = 80;
+ 	});
 
  	// pageslide
  	$('.hamburger-action').pageslide({
