@@ -1291,7 +1291,7 @@ h1.intro:focus {
 /* line 271, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 footer {
   text-align: center;
-  padding-top: 6em;
+  padding: 6em 0 3em;
 }
 /* line 274, /Users/tomcavill/Dropbox/tomcavill/v3/build/assets/css/layout.less */
 footer iframe {
